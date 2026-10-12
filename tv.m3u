@@ -1,4 +1,5 @@
 #EXTM3U
+# Domestic and Phoenix source check: 2026-10-12T22:02:17+08:00
 # Manual multi-source edition: 2026-10-12T20:45:31+08:00
 #EXTINF:-1 tvg-id="CCTV1.cn" tvg-name="CCTV-1 综合" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="01 央视",CCTV1.cn_主源1·720p
 http://74.91.26.218:82/live/cctv1hd.m3u8
@@ -46,10 +47,12 @@ https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 #EXTINF:-1 tvg-id="CCTV4America.cn" tvg-name="CCTV-4 中文国际美洲" tvg-logo="https://i.imgur.com/VAm2Ofz.png" group-title="01 央视",CCTV4America.cn_备用2
 https://h5cul1yar48um3t.wcetv.com/hls/cctv4.m3u8
-#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_主源1·1080p·本次实测
+#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_主源1·1080p·用户确认
 http://120.76.248.139/live/bfgd/4200000064.m3u8
-#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_备用2·1080p·较慢待试
-http://183.11.239.36:808/hls/93/index.m3u8
+#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_备用2·1080p·本次实测
+http://112.123.243.37:50085/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_备用3·1080p·本次实测
+http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="CCTV5Plus.cn" tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="01 央视",CCTV5Plus.cn_主源1
 http://120.196.232.51:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226711/1.m3u8
 #EXTINF:-1 tvg-id="CCTV5Plus.cn" tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="01 央视",CCTV5Plus.cn_备用2
@@ -60,16 +63,12 @@ http://221.213.43.82:8888/newlive/live/hls/7/live.m3u8
 http://221.214.163.48:9989/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV5Plus.cn" tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="01 央视",CCTV5Plus.cn_备用5
 http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel41140/index.m3u8
-#EXTINF:-1 tvg-id="CCTV6.cn" tvg-name="CCTV-6 电影" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="01 央视",CCTV6.cn_主源1
-http://111.59.63.32:9901/tsfile/live/1013_1.m3u8
-#EXTINF:-1 tvg-id="CCTV6.cn" tvg-name="CCTV-6 电影" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="01 央视",CCTV6.cn_备用2
-http://112.101.78.50:9901/tsfile/live/0006_1.m3u8
-#EXTINF:-1 tvg-id="CCTV6.cn" tvg-name="CCTV-6 电影" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="01 央视",CCTV6.cn_备用3
-http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226699/1.m3u8
-#EXTINF:-1 tvg-id="CCTV6.cn" tvg-name="CCTV-6 电影" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="01 央视",CCTV6.cn_备用4
-http://125.210.152.19:9120/live/hzgq-cctv6gq-h264.m3u8
-#EXTINF:-1 tvg-id="CCTV6.cn" tvg-name="CCTV-6 电影" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="01 央视",CCTV6.cn_备用5
-http://221.213.43.82:8888/newlive/live/hls/8/live.m3u8
+#EXTINF:-1 tvg-id="CCTV6.cn" tvg-name="CCTV-6 电影" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="01 央视",CCTV6.cn_主源1·1080p·本次实测
+http://112.123.243.37:50085/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="CCTV6.cn" tvg-name="CCTV-6 电影" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="01 央视",CCTV6.cn_备用2·1080p·本次实测
+http://183.10.180.46:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="CCTV6.cn" tvg-name="CCTV-6 电影" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="01 央视",CCTV6.cn_备用3·720p·本次实测
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd
 #EXTINF:-1 tvg-id="CCTV7.cn" tvg-name="CCTV-7 国防军事" tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="01 央视",CCTV7.cn_主源1·720p
 http://74.91.26.218:82/live/cctv7hd.m3u8
 #EXTINF:-1 tvg-id="CCTV7.cn" tvg-name="CCTV-7 国防军事" tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="01 央视",CCTV7.cn_备用2
@@ -90,16 +89,14 @@ http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226715/1.m3u8
 http://125.210.152.19:9120/live/hzgq-cctv8gq-h264.m3u8
 #EXTINF:-1 tvg-id="CCTV8.cn" tvg-name="CCTV-8 电视剧" tvg-logo="https://i.imgur.com/GyHaZ8X.png" group-title="01 央视",CCTV8.cn_备用5
 http://221.214.163.48:9989/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="CCTV9.cn" tvg-name="CCTV-9 纪录" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="01 央视",CCTV9.cn_主源1·576i
-https://xykt-fix.github.io/Y77.m3u8
-#EXTINF:-1 tvg-id="CCTV9.cn" tvg-name="CCTV-9 纪录" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="01 央视",CCTV9.cn_备用2
-http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226651/1.m3u8
-#EXTINF:-1 tvg-id="CCTV9.cn" tvg-name="CCTV-9 纪录" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="01 央视",CCTV9.cn_备用3
-http://125.210.152.19:9120/live/hzgq-cctvjlgq-h264.m3u8
-#EXTINF:-1 tvg-id="CCTV9.cn" tvg-name="CCTV-9 纪录" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="01 央视",CCTV9.cn_备用4
-http://221.213.43.82:8888/newlive/live/hls/11/live.m3u8
-#EXTINF:-1 tvg-id="CCTV9.cn" tvg-name="CCTV-9 纪录" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="01 央视",CCTV9.cn_备用5
-http://221.214.163.48:9989/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="CCTV9.cn" tvg-name="CCTV-9 纪录" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="01 央视",CCTV9.cn_主源1·1080p·本次实测
+http://112.123.243.37:50085/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="CCTV9.cn" tvg-name="CCTV-9 纪录" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="01 央视",CCTV9.cn_备用2·1080p·本次实测
+http://183.10.180.46:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="CCTV9.cn" tvg-name="CCTV-9 纪录" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="01 央视",CCTV9.cn_备用3·720p·本次实测
+http://74.91.26.218:82/live/cctv9hd.m3u8
+#EXTINF:-1 tvg-id="CCTV9.cn" tvg-name="CCTV-9 纪录" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="01 央视",CCTV9.cn_备用4·720p·本次实测
+http://192.151.150.154/live/cctv9hd.m3u8
 #EXTINF:-1 tvg-id="CCTV10.cn" tvg-name="CCTV-10 科教" tvg-logo="https://i.imgur.com/sSSO7UD.png" group-title="01 央视",CCTV10.cn_主源1·720p
 http://74.91.26.218:82/live/cctv10hd.m3u8
 #EXTINF:-1 tvg-id="CCTV10.cn" tvg-name="CCTV-10 科教" tvg-logo="https://i.imgur.com/sSSO7UD.png" group-title="01 央视",CCTV10.cn_备用2
@@ -266,329 +263,157 @@ https://global.cgtn.cicc.media.caton.cloud/master/cgtn-documentary.m3u8
 https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-name="CGTN Documentary" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="01 央视",CGTNDocumentary.cn_备用5·576p
 https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn" tvg-name="北京卫视" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="02 省级卫视",BeijingSatelliteTV.cn_主源1
-http://39.134.65.164/PLTV/88888888/224/3221225678/1.m3u8
-#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn" tvg-name="北京卫视" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="02 省级卫视",BeijingSatelliteTV.cn_备用2
-http://39.134.67.226/PLTV/88888888/224/3221225678/index.m3u8
-#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn" tvg-name="北京卫视" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="02 省级卫视",BeijingSatelliteTV.cn_备用3
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225796/index.m3u8
-#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn" tvg-name="北京卫视" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="02 省级卫视",BeijingSatelliteTV.cn_备用4
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
-#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn" tvg-name="北京卫视" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="02 省级卫视",BeijingSatelliteTV.cn_备用5·1080p·限区
-http://14.152.88.77/liveplay-kk.rtxapp.com/live/program/live/bjwshd/4000000/mnf.m3u8
-#EXTINF:-1 tvg-id="TianjinTV.cn" tvg-name="天津卫视" tvg-logo="https://i.imgur.com/Bg24eaH.png" group-title="02 省级卫视",TianjinTV.cn_主源1·1080p
-http://223.110.243.170/PLTV/3/224/3221227212/index.m3u8
-#EXTINF:-1 tvg-id="TianjinTV.cn" tvg-name="天津卫视" tvg-logo="https://i.imgur.com/Bg24eaH.png" group-title="02 省级卫视",TianjinTV.cn_备用2·1080p
-http://223.110.245.155/ott.js.chinamobile.com/PLTV/3/224/3221227382/index.m3u8
-#EXTINF:-1 tvg-id="TianjinTV.cn" tvg-name="天津卫视" tvg-logo="https://i.imgur.com/Bg24eaH.png" group-title="02 省级卫视",TianjinTV.cn_备用3·1080p
-http://39.134.115.163:8080/PLTV/88888910/224/3221225698/index.m3u8
-#EXTINF:-1 tvg-id="TianjinTV.cn" tvg-name="天津卫视" tvg-logo="https://i.imgur.com/Bg24eaH.png" group-title="02 省级卫视",TianjinTV.cn_备用4·576p
-http://183.207.249.12/PLTV/4/224/3221225808/index.m3u8
-#EXTINF:-1 tvg-id="TianjinTV.cn" tvg-name="天津卫视" tvg-logo="https://i.imgur.com/Bg24eaH.png" group-title="02 省级卫视",TianjinTV.cn_备用5
-http://111.63.117.13:6060/030000001000/TJWS/TJWS.m3u8
-#EXTINF:-1 tvg-id="HebeiTV.cn" tvg-name="河北卫视" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="02 省级卫视",HebeiTV.cn_主源1·2160p
-https://event.pull.hebtv.com/live/live101.m3u8
-#EXTINF:-1 tvg-id="HebeiTV.cn" tvg-name="河北卫视" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="02 省级卫视",HebeiTV.cn_备用2
+#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn" tvg-name="北京卫视" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="02 省级卫视",BeijingSatelliteTV.cn_主源1·1080p·本次实测
+http://125.125.236.31:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="TianjinTV.cn" tvg-name="天津卫视" tvg-logo="https://i.imgur.com/Bg24eaH.png" group-title="02 省级卫视",TianjinTV.cn_主源1·1080p·本次实测
+http://125.125.236.31:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="TianjinTV.cn" tvg-name="天津卫视" tvg-logo="https://i.imgur.com/Bg24eaH.png" group-title="02 省级卫视",TianjinTV.cn_备用2·1080p·本次实测
+http://221.226.51.220:50081/newlive/live/hls/26/live.m3u8
+#EXTINF:-1 tvg-id="TianjinTV.cn" tvg-name="天津卫视" tvg-logo="https://i.imgur.com/Bg24eaH.png" group-title="02 省级卫视",TianjinTV.cn_备用3·576p·本次实测
+http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="HebeiTV.cn" tvg-name="河北卫视" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="02 省级卫视",HebeiTV.cn_主源1·540p·本次实测
+http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
+#EXTINF:-1 tvg-id="HebeiTV.cn" tvg-name="河北卫视" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="02 省级卫视",HebeiTV.cn_备用2·540p·本次实测
 https://restream.pdtvhd.com/memfs/1db8c005-9365-4b32-94a4-3736987b5646.m3u8
-#EXTINF:-1 tvg-id="HebeiTV.cn" tvg-name="河北卫视" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="02 省级卫视",HebeiTV.cn_备用3
-http://221.214.163.48:9989/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="HebeiTV.cn" tvg-name="河北卫视" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="02 省级卫视",HebeiTV.cn_备用4
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225750/index.m3u8
-#EXTINF:-1 tvg-id="HebeiTV.cn" tvg-name="河北卫视" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="02 省级卫视",HebeiTV.cn_备用5
-http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=f1b16a3a3866dafecb94ec2bb4160e58
-#EXTINF:-1 tvg-id="ShanxiTV.cn" tvg-name="山西卫视" tvg-logo="https://i.imgur.com/UfKJBWW.png" group-title="02 省级卫视",ShanxiTV.cn_主源1
-http://221.214.163.48:9989/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="ShanxiTV.cn" tvg-name="山西卫视" tvg-logo="https://i.imgur.com/UfKJBWW.png" group-title="02 省级卫视",ShanxiTV.cn_备用2
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225763/index.m3u8
-#EXTINF:-1 tvg-id="ShanxiTV.cn" tvg-name="山西卫视" tvg-logo="https://i.imgur.com/UfKJBWW.png" group-title="02 省级卫视",ShanxiTV.cn_备用3
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225624/index.m3u8
-#EXTINF:-1 tvg-id="NeiMonggolChineseTV.cn" tvg-name="内蒙古卫视" tvg-logo="https://i.imgur.com/R4DWvBa.png" group-title="02 省级卫视",NeiMonggolChineseTV.cn_主源1
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226389/index.m3u8
-#EXTINF:-1 tvg-id="NeiMonggolChineseTV.cn" tvg-name="内蒙古卫视" tvg-logo="https://i.imgur.com/R4DWvBa.png" group-title="02 省级卫视",NeiMonggolChineseTV.cn_备用2
-http://111.63.117.13:6060/030000001000/G_NEIMENGGU/G_NEIMENGGU.m3u8
-#EXTINF:-1 tvg-id="NeiMonggolChineseTV.cn" tvg-name="内蒙古卫视" tvg-logo="https://i.imgur.com/R4DWvBa.png" group-title="02 省级卫视",NeiMonggolChineseTV.cn_备用3
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225786/index.m3u8
-#EXTINF:-1 tvg-id="NeiMonggolChineseTV.cn" tvg-name="内蒙古卫视" tvg-logo="https://i.imgur.com/R4DWvBa.png" group-title="02 省级卫视",NeiMonggolChineseTV.cn_备用4
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8
-#EXTINF:-1 tvg-id="LiaoningTV.cn" tvg-name="辽宁卫视" tvg-logo="https://i.imgur.com/XRfeNTd.png" group-title="02 省级卫视",LiaoningTV.cn_主源1·1080p
+#EXTINF:-1 tvg-id="ShanxiTV.cn" tvg-name="山西卫视" tvg-logo="https://i.imgur.com/UfKJBWW.png" group-title="02 省级卫视",ShanxiTV.cn_主源1·1080p·本次实测
+http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
+#EXTINF:-1 tvg-id="ShanxiTV.cn" tvg-name="山西卫视" tvg-logo="https://i.imgur.com/UfKJBWW.png" group-title="02 省级卫视",ShanxiTV.cn_备用2·576p·本次实测
+http://183.10.180.46:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="NeiMonggolChineseTV.cn" tvg-name="内蒙古卫视" tvg-logo="https://i.imgur.com/R4DWvBa.png" group-title="02 省级卫视",NeiMonggolChineseTV.cn_主源1·576p·本次实测
+http://59.39.89.130:60901/tsfile/live/0125_21.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="NeiMonggolChineseTV.cn" tvg-name="内蒙古卫视" tvg-logo="https://i.imgur.com/R4DWvBa.png" group-title="02 省级卫视",NeiMonggolChineseTV.cn_备用2·576p·本次实测
+http://183.10.180.46:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="LiaoningTV.cn" tvg-name="辽宁卫视" tvg-logo="https://i.imgur.com/XRfeNTd.png" group-title="02 省级卫视",LiaoningTV.cn_主源1·1080p·未通过待试
 http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
-#EXTINF:-1 tvg-id="LiaoningTV.cn" tvg-name="辽宁卫视" tvg-logo="https://i.imgur.com/XRfeNTd.png" group-title="02 省级卫视",LiaoningTV.cn_备用2·1080p
+#EXTINF:-1 tvg-id="LiaoningTV.cn" tvg-name="辽宁卫视" tvg-logo="https://i.imgur.com/XRfeNTd.png" group-title="02 省级卫视",LiaoningTV.cn_备用2·1080p·未通过待试
 http://39.135.138.59:18890/PLTV/88888910/224/3221225696/index.m3u8
-#EXTINF:-1 tvg-id="LiaoningTV.cn" tvg-name="辽宁卫视" tvg-logo="https://i.imgur.com/XRfeNTd.png" group-title="02 省级卫视",LiaoningTV.cn_备用3·720p
+#EXTINF:-1 tvg-id="LiaoningTV.cn" tvg-name="辽宁卫视" tvg-logo="https://i.imgur.com/XRfeNTd.png" group-title="02 省级卫视",LiaoningTV.cn_备用3·720p·未通过待试
 http://125.210.152.18:9090/live/LNWSHD_H265.m3u8
-#EXTINF:-1 tvg-id="LiaoningTV.cn" tvg-name="辽宁卫视" tvg-logo="https://i.imgur.com/XRfeNTd.png" group-title="02 省级卫视",LiaoningTV.cn_备用4·576p
+#EXTINF:-1 tvg-id="LiaoningTV.cn" tvg-name="辽宁卫视" tvg-logo="https://i.imgur.com/XRfeNTd.png" group-title="02 省级卫视",LiaoningTV.cn_备用4·576p·未通过待试
 http://183.207.248.71/cntv/live1/liaoningstv/liaoningstv
-#EXTINF:-1 tvg-id="LiaoningTV.cn" tvg-name="辽宁卫视" tvg-logo="https://i.imgur.com/XRfeNTd.png" group-title="02 省级卫视",LiaoningTV.cn_备用5·576p
+#EXTINF:-1 tvg-id="LiaoningTV.cn" tvg-name="辽宁卫视" tvg-logo="https://i.imgur.com/XRfeNTd.png" group-title="02 省级卫视",LiaoningTV.cn_备用5·576p·未通过待试
 http://183.207.249.12/PLTV/4/224/3221225802/index.m3u8
-#EXTINF:-1 tvg-id="JilinSatelliteTV.cn" tvg-name="吉林卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/jilintv.jpg" group-title="02 省级卫视",JilinSatelliteTV.cn_主源1·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226397/index.m3u8
-#EXTINF:-1 tvg-id="JilinSatelliteTV.cn" tvg-name="吉林卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/jilintv.jpg" group-title="02 省级卫视",JilinSatelliteTV.cn_备用2
-http://111.63.117.13:6060/030000001000/G_JILIN/G_JILIN.m3u8
-#EXTINF:-1 tvg-id="JilinSatelliteTV.cn" tvg-name="吉林卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/jilintv.jpg" group-title="02 省级卫视",JilinSatelliteTV.cn_备用3
-http://221.214.163.48:9989/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="JilinSatelliteTV.cn" tvg-name="吉林卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/jilintv.jpg" group-title="02 省级卫视",JilinSatelliteTV.cn_备用4
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225792/index.m3u8
-#EXTINF:-1 tvg-id="HeilongjiangTV.cn" tvg-name="黑龙江卫视" tvg-logo="https://i.imgur.com/9fj1uba.png" group-title="02 省级卫视",HeilongjiangTV.cn_主源1
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225802/index.m3u8
-#EXTINF:-1 tvg-id="HeilongjiangTV.cn" tvg-name="黑龙江卫视" tvg-logo="https://i.imgur.com/9fj1uba.png" group-title="02 省级卫视",HeilongjiangTV.cn_备用2
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8
-#EXTINF:-1 tvg-id="HeilongjiangTV.cn" tvg-name="黑龙江卫视" tvg-logo="https://i.imgur.com/9fj1uba.png" group-title="02 省级卫视",HeilongjiangTV.cn_备用3·1080p
-http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8
-#EXTINF:-1 tvg-id="HeilongjiangTV.cn" tvg-name="黑龙江卫视" tvg-logo="https://i.imgur.com/9fj1uba.png" group-title="02 省级卫视",HeilongjiangTV.cn_备用4·576p
-http://183.207.248.71/gitv/live1/G_HEILONGJIANG/G_HEILONGJIANG
-#EXTINF:-1 tvg-id="HeilongjiangTV.cn" tvg-name="黑龙江卫视" tvg-logo="https://i.imgur.com/9fj1uba.png" group-title="02 省级卫视",HeilongjiangTV.cn_备用5
-http://221.214.163.48:9989/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="DragonTV.cn" tvg-name="东方卫视" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="02 省级卫视",DragonTV.cn_主源1
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226336/index.m3u8
-#EXTINF:-1 tvg-id="DragonTV.cn" tvg-name="东方卫视" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="02 省级卫视",DragonTV.cn_备用2·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8
-#EXTINF:-1 tvg-id="DragonTV.cn" tvg-name="东方卫视" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="02 省级卫视",DragonTV.cn_备用3
-http://111.63.117.13:6060/030000001000/G_DONGFANG/G_DONGFANG.m3u8
-#EXTINF:-1 tvg-id="DragonTV.cn" tvg-name="东方卫视" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="02 省级卫视",DragonTV.cn_备用4
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225797/index.m3u8
-#EXTINF:-1 tvg-id="DragonTV.cn" tvg-name="东方卫视" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="02 省级卫视",DragonTV.cn_备用5
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8
-#EXTINF:-1 tvg-id="JiangsuSatelliteTV.cn" tvg-name="江苏卫视" tvg-logo="" group-title="02 省级卫视",JiangsuSatelliteTV.cn_主源1·1080p
-http://183.207.248.71/cntv/live1/jiangsustv/jiangsustv
-#EXTINF:-1 tvg-id="JiangsuSatelliteTV.cn" tvg-name="江苏卫视" tvg-logo="" group-title="02 省级卫视",JiangsuSatelliteTV.cn_备用2·1080p
-http://183.207.249.34/PLTV/4/224/3221227402/index.m3u8
-#EXTINF:-1 tvg-id="JiangsuSatelliteTV.cn" tvg-name="江苏卫视" tvg-logo="" group-title="02 省级卫视",JiangsuSatelliteTV.cn_备用3·1080p
-http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221227439/index.m3u8
-#EXTINF:-1 tvg-id="JiangsuSatelliteTV.cn" tvg-name="江苏卫视" tvg-logo="" group-title="02 省级卫视",JiangsuSatelliteTV.cn_备用4·1080p
-http://39.134.115.163:8080/PLTV/88888910/224/3221225702/index.m3u8
-#EXTINF:-1 tvg-id="JiangsuSatelliteTV.cn" tvg-name="江苏卫视" tvg-logo="" group-title="02 省级卫视",JiangsuSatelliteTV.cn_备用5·1080p
-http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
-#EXTINF:-1 tvg-id="ZhejiangSatelliteTV.cn" tvg-name="浙江卫视" tvg-logo="https://i.imgur.com/NFFQNhq.png" group-title="02 省级卫视",ZhejiangSatelliteTV.cn_主源1·1080p
-http://183.207.249.34/PLTV/4/224/3221227393/index.m3u8
-#EXTINF:-1 tvg-id="ZhejiangSatelliteTV.cn" tvg-name="浙江卫视" tvg-logo="https://i.imgur.com/NFFQNhq.png" group-title="02 省级卫视",ZhejiangSatelliteTV.cn_备用2·1080p
-http://223.110.243.173/PLTV/3/224/3221227215/index.m3u8
-#EXTINF:-1 tvg-id="ZhejiangSatelliteTV.cn" tvg-name="浙江卫视" tvg-logo="https://i.imgur.com/NFFQNhq.png" group-title="02 省级卫视",ZhejiangSatelliteTV.cn_备用3·1080p
-http://223.110.245.143/ott.js.chinamobile.com/PLTV/3/224/3221227483/index.m3u8
-#EXTINF:-1 tvg-id="ZhejiangSatelliteTV.cn" tvg-name="浙江卫视" tvg-logo="https://i.imgur.com/NFFQNhq.png" group-title="02 省级卫视",ZhejiangSatelliteTV.cn_备用4·1080p
-http://223.110.254.210:6610/cntv/live1/zhejiangstv/zhejiangstv/1.m3u8
-#EXTINF:-1 tvg-id="ZhejiangSatelliteTV.cn" tvg-name="浙江卫视" tvg-logo="https://i.imgur.com/NFFQNhq.png" group-title="02 省级卫视",ZhejiangSatelliteTV.cn_备用5·1080p
-http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8
-#EXTINF:-1 tvg-id="AnhuiTV.cn" tvg-name="安徽卫视" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="02 省级卫视",AnhuiTV.cn_主源1
-https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
-#EXTINF:-1 tvg-id="AnhuiTV.cn" tvg-name="安徽卫视" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="02 省级卫视",AnhuiTV.cn_备用2
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226203/index.m3u8
-#EXTINF:-1 tvg-id="AnhuiTV.cn" tvg-name="安徽卫视" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="02 省级卫视",AnhuiTV.cn_备用3
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
-#EXTINF:-1 tvg-id="AnhuiTV.cn" tvg-name="安徽卫视" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="02 省级卫视",AnhuiTV.cn_备用4·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
-#EXTINF:-1 tvg-id="AnhuiTV.cn" tvg-name="安徽卫视" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="02 省级卫视",AnhuiTV.cn_备用5
-http://221.214.163.48:9989/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="FujianSoutheastTV.cn" tvg-name="东南卫视" tvg-logo="https://i.imgur.com/btIeqQc.png" group-title="02 省级卫视",FujianSoutheastTV.cn_主源1
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
-#EXTINF:-1 tvg-id="FujianSoutheastTV.cn" tvg-name="东南卫视" tvg-logo="https://i.imgur.com/btIeqQc.png" group-title="02 省级卫视",FujianSoutheastTV.cn_备用2·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
-#EXTINF:-1 tvg-id="FujianSoutheastTV.cn" tvg-name="东南卫视" tvg-logo="https://i.imgur.com/btIeqQc.png" group-title="02 省级卫视",FujianSoutheastTV.cn_备用3
-http://111.63.117.13:6060/030000001000/DNWS/DNWS.m3u8
-#EXTINF:-1 tvg-id="FujianSoutheastTV.cn" tvg-name="东南卫视" tvg-logo="https://i.imgur.com/btIeqQc.png" group-title="02 省级卫视",FujianSoutheastTV.cn_备用4
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225766/index.m3u8
-#EXTINF:-1 tvg-id="FujianSoutheastTV.cn" tvg-name="东南卫视" tvg-logo="https://i.imgur.com/btIeqQc.png" group-title="02 省级卫视",FujianSoutheastTV.cn_备用5
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226377/index.m3u8
-#EXTINF:-1 tvg-id="JiangxiTV.cn" tvg-name="江西卫视" tvg-logo="https://i.imgur.com/RrLthH3.png" group-title="02 省级卫视",JiangxiTV.cn_主源1·1080p
-http://223.110.245.170/PLTV/3/224/3221225536/index.m3u8
-#EXTINF:-1 tvg-id="JiangxiTV.cn" tvg-name="江西卫视" tvg-logo="https://i.imgur.com/RrLthH3.png" group-title="02 省级卫视",JiangxiTV.cn_备用2·1080p
-http://223.110.254.199:6610/cntv/live1/jiangxistv/jiangxistv/1.m3u8
-#EXTINF:-1 tvg-id="JiangxiTV.cn" tvg-name="江西卫视" tvg-logo="https://i.imgur.com/RrLthH3.png" group-title="02 省级卫视",JiangxiTV.cn_备用3·1080p
-http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
-#EXTINF:-1 tvg-id="JiangxiTV.cn" tvg-name="江西卫视" tvg-logo="https://i.imgur.com/RrLthH3.png" group-title="02 省级卫视",JiangxiTV.cn_备用4·720p
-http://117.169.120.140:8080/live/jiangxistv/.m3u8
-#EXTINF:-1 tvg-id="JiangxiTV.cn" tvg-name="江西卫视" tvg-logo="https://i.imgur.com/RrLthH3.png" group-title="02 省级卫视",JiangxiTV.cn_备用5·576p
-http://183.207.248.71/gitv/live1/JXWS/JXWS
-#EXTINF:-1 tvg-id="ShandongSatelliteTV.cn" tvg-name="山东卫视（ShandongTV.cn）" tvg-logo="https://www.tvchinese.net/uploads/tv/shandongtv.jpg" group-title="02 省级卫视",ShandongSatelliteTV.cn_主源1·1080p·其他地区版
-http://223.110.243.171/PLTV/3/224/3221227258/index.m3u8
-#EXTINF:-1 tvg-id="ShandongSatelliteTV.cn" tvg-name="山东卫视（ShandongTV.cn）" tvg-logo="https://www.tvchinese.net/uploads/tv/shandongtv.jpg" group-title="02 省级卫视",ShandongSatelliteTV.cn_备用2·1080p·其他地区版
-http://223.110.245.139/PLTV/4/224/3221227448/index.m3u8
-#EXTINF:-1 tvg-id="ShandongSatelliteTV.cn" tvg-name="山东卫视（ShandongTV.cn）" tvg-logo="https://www.tvchinese.net/uploads/tv/shandongtv.jpg" group-title="02 省级卫视",ShandongSatelliteTV.cn_备用3·1080p·其他地区版
-http://223.110.254.207:6610/cntv/live1/HD-2500k-1080P-shandongstv/HD-2500k-1080P-shandongstv/1.m3u8
-#EXTINF:-1 tvg-id="ShandongSatelliteTV.cn" tvg-name="山东卫视（ShandongTV.cn）" tvg-logo="https://www.tvchinese.net/uploads/tv/shandongtv.jpg" group-title="02 省级卫视",ShandongSatelliteTV.cn_备用4·1080p·其他地区版
-http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
-#EXTINF:-1 tvg-id="ShandongSatelliteTV.cn" tvg-name="山东卫视（ShandongTV.cn）" tvg-logo="https://www.tvchinese.net/uploads/tv/shandongtv.jpg" group-title="02 省级卫视",ShandongSatelliteTV.cn_备用5·576p·其他地区版
-http://183.207.248.71/gitv/live1/SDWS/SDWS
-#EXTINF:-1 tvg-id="HenanTVSatellite.cn" tvg-name="河南卫视" tvg-logo="https://i.imgur.com/IBW26kV.png" group-title="02 省级卫视",HenanTVSatellite.cn_主源1
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
-#EXTINF:-1 tvg-id="HenanTVSatellite.cn" tvg-name="河南卫视" tvg-logo="https://i.imgur.com/IBW26kV.png" group-title="02 省级卫视",HenanTVSatellite.cn_备用2·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
-#EXTINF:-1 tvg-id="HenanTVSatellite.cn" tvg-name="河南卫视" tvg-logo="https://i.imgur.com/IBW26kV.png" group-title="02 省级卫视",HenanTVSatellite.cn_备用3
-http://111.63.117.13:6060/030000001000/HENAN/HENAN.m3u8
-#EXTINF:-1 tvg-id="HenanTVSatellite.cn" tvg-name="河南卫视" tvg-logo="https://i.imgur.com/IBW26kV.png" group-title="02 省级卫视",HenanTVSatellite.cn_备用4
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225767/index.m3u8
-#EXTINF:-1 tvg-id="HenanTVSatellite.cn" tvg-name="河南卫视" tvg-logo="https://i.imgur.com/IBW26kV.png" group-title="02 省级卫视",HenanTVSatellite.cn_备用5
-http://111.63.117.13:6060/030000001000/LYWS/LYWS.m3u8
-#EXTINF:-1 tvg-id="HubeiSatelliteTV.cn" tvg-name="湖北卫视" tvg-logo="https://i.imgur.com/CTRa9BJ.png" group-title="02 省级卫视",HubeiSatelliteTV.cn_主源1
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226206/index.m3u8
-#EXTINF:-1 tvg-id="HubeiSatelliteTV.cn" tvg-name="湖北卫视" tvg-logo="https://i.imgur.com/CTRa9BJ.png" group-title="02 省级卫视",HubeiSatelliteTV.cn_备用2·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
-#EXTINF:-1 tvg-id="HubeiSatelliteTV.cn" tvg-name="湖北卫视" tvg-logo="https://i.imgur.com/CTRa9BJ.png" group-title="02 省级卫视",HubeiSatelliteTV.cn_备用3
-http://111.63.117.13:6060/030000001000/G_HUBEI/G_HUBEI.m3u8
-#EXTINF:-1 tvg-id="HubeiSatelliteTV.cn" tvg-name="湖北卫视" tvg-logo="https://i.imgur.com/CTRa9BJ.png" group-title="02 省级卫视",HubeiSatelliteTV.cn_备用4
-http://221.214.163.48:9989/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="HubeiSatelliteTV.cn" tvg-name="湖北卫视" tvg-logo="https://i.imgur.com/CTRa9BJ.png" group-title="02 省级卫视",HubeiSatelliteTV.cn_备用5
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226194/index.m3u8
-#EXTINF:-1 tvg-id="HunanTV.cn" tvg-name="湖南卫视" tvg-logo="https://parco-zh.github.io/demo/HNWS.png" group-title="02 省级卫视",HunanTV.cn_主源1·2160p
+#EXTINF:-1 tvg-id="JilinSatelliteTV.cn" tvg-name="吉林卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/jilintv.jpg" group-title="02 省级卫视",JilinSatelliteTV.cn_主源1·576p·本次实测
+http://112.123.243.37:50085/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="HeilongjiangTV.cn" tvg-name="黑龙江卫视" tvg-logo="https://i.imgur.com/9fj1uba.png" group-title="02 省级卫视",HeilongjiangTV.cn_主源1·1080p·本次实测
+http://125.125.236.31:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="HeilongjiangTV.cn" tvg-name="黑龙江卫视" tvg-logo="https://i.imgur.com/9fj1uba.png" group-title="02 省级卫视",HeilongjiangTV.cn_备用2·1080p·本次实测
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hljwshd
+#EXTINF:-1 tvg-id="DragonTV.cn" tvg-name="东方卫视" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="02 省级卫视",DragonTV.cn_主源1·1080p·本次实测
+http://112.123.243.37:50085/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="JiangsuSatelliteTV.cn" tvg-name="江苏卫视" tvg-logo="" group-title="02 省级卫视",JiangsuSatelliteTV.cn_主源1·576p·偏慢待试
+http://124.228.160.112:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="ZhejiangSatelliteTV.cn" tvg-name="浙江卫视" tvg-logo="https://i.imgur.com/NFFQNhq.png" group-title="02 省级卫视",ZhejiangSatelliteTV.cn_主源1·1080p·本次实测
+http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
+#EXTINF:-1 tvg-id="ZhejiangSatelliteTV.cn" tvg-name="浙江卫视" tvg-logo="https://i.imgur.com/NFFQNhq.png" group-title="02 省级卫视",ZhejiangSatelliteTV.cn_备用2·720p·本次实测
+http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
+#EXTINF:-1 tvg-id="AnhuiTV.cn" tvg-name="安徽卫视" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="02 省级卫视",AnhuiTV.cn_主源1·1080p·本次实测
+http://125.125.236.31:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="AnhuiTV.cn" tvg-name="安徽卫视" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="02 省级卫视",AnhuiTV.cn_备用2·1080p·偏慢待试
+http://221.226.51.220:50081/newlive/live/hls/36/live.m3u8
+#EXTINF:-1 tvg-id="FujianSoutheastTV.cn" tvg-name="东南卫视" tvg-logo="https://i.imgur.com/btIeqQc.png" group-title="02 省级卫视",FujianSoutheastTV.cn_主源1·1080p·本次实测
+http://125.125.236.31:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="FujianSoutheastTV.cn" tvg-name="东南卫视" tvg-logo="https://i.imgur.com/btIeqQc.png" group-title="02 省级卫视",FujianSoutheastTV.cn_备用2·576p·本次实测
+http://112.123.243.37:50085/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="JiangxiTV.cn" tvg-name="江西卫视" tvg-logo="https://i.imgur.com/RrLthH3.png" group-title="02 省级卫视",JiangxiTV.cn_主源1·1080p·本次实测
+http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="JiangxiTV.cn" tvg-name="江西卫视" tvg-logo="https://i.imgur.com/RrLthH3.png" group-title="02 省级卫视",JiangxiTV.cn_备用2·1080p·本次实测
+http://125.125.236.31:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="ShandongSatelliteTV.cn" tvg-name="山东卫视（ShandongTV.cn）" tvg-logo="https://www.tvchinese.net/uploads/tv/shandongtv.jpg" group-title="02 省级卫视",ShandongSatelliteTV.cn_主源1·1080p·本次实测
+http://125.125.236.31:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="HenanTVSatellite.cn" tvg-name="河南卫视" tvg-logo="https://i.imgur.com/IBW26kV.png" group-title="02 省级卫视",HenanTVSatellite.cn_主源1·576p·本次实测
+http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="HubeiSatelliteTV.cn" tvg-name="湖北卫视" tvg-logo="https://i.imgur.com/CTRa9BJ.png" group-title="02 省级卫视",HubeiSatelliteTV.cn_主源1·1080p·本次实测
+http://125.125.236.31:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="HunanTV.cn" tvg-name="湖南卫视" tvg-logo="https://parco-zh.github.io/demo/HNWS.png" group-title="02 省级卫视",HunanTV.cn_主源1·1080p·本次实测
+http://125.125.236.31:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="HunanTV.cn" tvg-name="湖南卫视" tvg-logo="https://parco-zh.github.io/demo/HNWS.png" group-title="02 省级卫视",HunanTV.cn_备用2·720p·本次实测
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hnwshd
+#EXTINF:-1 tvg-id="HunanTV.cn" tvg-name="湖南卫视" tvg-logo="https://parco-zh.github.io/demo/HNWS.png" group-title="02 省级卫视",HunanTV.cn_备用3·2160p·本次实测
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-#EXTINF:-1 tvg-id="HunanTV.cn" tvg-name="湖南卫视" tvg-logo="https://parco-zh.github.io/demo/HNWS.png" group-title="02 省级卫视",HunanTV.cn_备用2
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225799/index.m3u8
-#EXTINF:-1 tvg-id="HunanTV.cn" tvg-name="湖南卫视" tvg-logo="https://parco-zh.github.io/demo/HNWS.png" group-title="02 省级卫视",HunanTV.cn_备用3
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/index.m3u8
-#EXTINF:-1 tvg-id="HunanTV.cn" tvg-name="湖南卫视" tvg-logo="https://parco-zh.github.io/demo/HNWS.png" group-title="02 省级卫视",HunanTV.cn_备用4·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
-#EXTINF:-1 tvg-id="HunanTV.cn" tvg-name="湖南卫视" tvg-logo="https://parco-zh.github.io/demo/HNWS.png" group-title="02 省级卫视",HunanTV.cn_备用5
-http://111.63.117.13:6060/030000001000/G_HUNAN/G_HUNAN.m3u8
-#EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn" tvg-name="广东卫视" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="02 省级卫视",GuangdongSatelliteTV.cn_主源1
-http://221.214.163.48:9989/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn" tvg-name="广东卫视" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="02 省级卫视",GuangdongSatelliteTV.cn_备用2
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225803/index.m3u8
-#EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn" tvg-name="广东卫视" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="02 省级卫视",GuangdongSatelliteTV.cn_备用3
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8
-#EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn" tvg-name="广东卫视" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="02 省级卫视",GuangdongSatelliteTV.cn_备用4·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8
-#EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn" tvg-name="广东卫视" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="02 省级卫视",GuangdongSatelliteTV.cn_备用5
-https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
-#EXTINF:-1 tvg-id="GuangxiTV.cn" tvg-name="广西卫视" tvg-logo="https://i.imgur.com/dpre5Qs.png" group-title="02 省级卫视",GuangxiTV.cn_主源1
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226380/index.m3u8
-#EXTINF:-1 tvg-id="GuangxiTV.cn" tvg-name="广西卫视" tvg-logo="https://i.imgur.com/dpre5Qs.png" group-title="02 省级卫视",GuangxiTV.cn_备用2·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8
-#EXTINF:-1 tvg-id="GuangxiTV.cn" tvg-name="广西卫视" tvg-logo="https://i.imgur.com/dpre5Qs.png" group-title="02 省级卫视",GuangxiTV.cn_备用3
-http://111.59.63.32:9901/tsfile/live/1003_1.m3u8
-#EXTINF:-1 tvg-id="GuangxiTV.cn" tvg-name="广西卫视" tvg-logo="https://i.imgur.com/dpre5Qs.png" group-title="02 省级卫视",GuangxiTV.cn_备用4
-http://111.63.117.13:6060/030000001000/GXWS/GXWS.m3u8
-#EXTINF:-1 tvg-id="GuangxiTV.cn" tvg-name="广西卫视" tvg-logo="https://i.imgur.com/dpre5Qs.png" group-title="02 省级卫视",GuangxiTV.cn_备用5
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225770/index.m3u8
-#EXTINF:-1 tvg-id="HainanSatelliteTV.cn" tvg-name="海南卫视" tvg-logo="https://i.imgur.com/j6kY8nh.png" group-title="02 省级卫视",HainanSatelliteTV.cn_主源1·IPv6
+#EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn" tvg-name="广东卫视" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="02 省级卫视",GuangdongSatelliteTV.cn_主源1·1080p·本次实测
+http://107.150.60.122/live/gdwshd.m3u8
+#EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn" tvg-name="广东卫视" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="02 省级卫视",GuangdongSatelliteTV.cn_备用2·576p·本次实测
+http://125.125.236.31:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="GuangxiTV.cn" tvg-name="广西卫视" tvg-logo="https://i.imgur.com/dpre5Qs.png" group-title="02 省级卫视",GuangxiTV.cn_主源1·576p·本次实测
+http://112.123.243.37:50085/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="HainanSatelliteTV.cn" tvg-name="海南卫视" tvg-logo="https://i.imgur.com/j6kY8nh.png" group-title="02 省级卫视",HainanSatelliteTV.cn_主源1·画质待试·未通过待试
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
-#EXTINF:-1 tvg-id="HainanSatelliteTV.cn" tvg-name="海南卫视" tvg-logo="https://i.imgur.com/j6kY8nh.png" group-title="02 省级卫视",HainanSatelliteTV.cn_备用2
+#EXTINF:-1 tvg-id="HainanSatelliteTV.cn" tvg-name="海南卫视" tvg-logo="https://i.imgur.com/j6kY8nh.png" group-title="02 省级卫视",HainanSatelliteTV.cn_备用2·画质待试·未通过待试
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225769/index.m3u8
-#EXTINF:-1 tvg-id="HainanSatelliteTV.cn" tvg-name="海南卫视" tvg-logo="https://i.imgur.com/j6kY8nh.png" group-title="02 省级卫视",HainanSatelliteTV.cn_备用3
+#EXTINF:-1 tvg-id="HainanSatelliteTV.cn" tvg-name="海南卫视" tvg-logo="https://i.imgur.com/j6kY8nh.png" group-title="02 省级卫视",HainanSatelliteTV.cn_备用3·画质待试·未通过待试
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225639/index.m3u8
-#EXTINF:-1 tvg-id="HainanSatelliteTV.cn" tvg-name="海南卫视" tvg-logo="https://i.imgur.com/j6kY8nh.png" group-title="02 省级卫视",HainanSatelliteTV.cn_备用4
+#EXTINF:-1 tvg-id="HainanSatelliteTV.cn" tvg-name="海南卫视" tvg-logo="https://i.imgur.com/j6kY8nh.png" group-title="02 省级卫视",HainanSatelliteTV.cn_备用4·画质待试·未通过待试
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226445/index.m3u8
-#EXTINF:-1 tvg-id="ChongqingSatelliteTV.cn" tvg-name="重庆卫视" tvg-logo="https://i.imgur.com/t05JHEc.png" group-title="02 省级卫视",ChongqingSatelliteTV.cn_主源1
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8
-#EXTINF:-1 tvg-id="ChongqingSatelliteTV.cn" tvg-name="重庆卫视" tvg-logo="https://i.imgur.com/t05JHEc.png" group-title="02 省级卫视",ChongqingSatelliteTV.cn_备用2·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8
-#EXTINF:-1 tvg-id="ChongqingSatelliteTV.cn" tvg-name="重庆卫视" tvg-logo="https://i.imgur.com/t05JHEc.png" group-title="02 省级卫视",ChongqingSatelliteTV.cn_备用3
-http://111.63.117.13:6060/030000001000/G_CHONGQING/G_CHONGQING.m3u8
-#EXTINF:-1 tvg-id="ChongqingSatelliteTV.cn" tvg-name="重庆卫视" tvg-logo="https://i.imgur.com/t05JHEc.png" group-title="02 省级卫视",ChongqingSatelliteTV.cn_备用4
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226202/index.m3u8
-#EXTINF:-1 tvg-id="ChongqingSatelliteTV.cn" tvg-name="重庆卫视" tvg-logo="https://i.imgur.com/t05JHEc.png" group-title="02 省级卫视",ChongqingSatelliteTV.cn_备用5
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/index.m3u8
-#EXTINF:-1 tvg-id="SichuanSatelliteTV.cn" tvg-name="四川卫视" tvg-logo="https://i.imgur.com/r5xivih.png" group-title="02 省级卫视",SichuanSatelliteTV.cn_主源1·540p
-http://112.25.48.68/live/program/live/scws/1300000/mnf.m3u8
-#EXTINF:-1 tvg-id="SichuanSatelliteTV.cn" tvg-name="四川卫视" tvg-logo="https://i.imgur.com/r5xivih.png" group-title="02 省级卫视",SichuanSatelliteTV.cn_备用2·360p
-http://125.210.152.18:9090/live/SCWSHD_H265.m3u8
-#EXTINF:-1 tvg-id="SichuanSatelliteTV.cn" tvg-name="四川卫视" tvg-logo="https://i.imgur.com/r5xivih.png" group-title="02 省级卫视",SichuanSatelliteTV.cn_备用3
-http://111.63.117.13:6060/030000001000/SCWS/SCWS.m3u8
-#EXTINF:-1 tvg-id="SichuanSatelliteTV.cn" tvg-name="四川卫视" tvg-logo="https://i.imgur.com/r5xivih.png" group-title="02 省级卫视",SichuanSatelliteTV.cn_备用4
-http://221.214.163.48:9989/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="SichuanSatelliteTV.cn" tvg-name="四川卫视" tvg-logo="https://i.imgur.com/r5xivih.png" group-title="02 省级卫视",SichuanSatelliteTV.cn_备用5
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225768/index.m3u8
-#EXTINF:-1 tvg-id="GuizhouTV.cn" tvg-name="贵州卫视" tvg-logo="https://i.imgur.com/nkcKCdr.png" group-title="02 省级卫视",GuizhouTV.cn_主源1
-http://111.63.117.13:6060/030000001000/G_GUIZHOU/G_GUIZHOU.m3u8
-#EXTINF:-1 tvg-id="GuizhouTV.cn" tvg-name="贵州卫视" tvg-logo="https://i.imgur.com/nkcKCdr.png" group-title="02 省级卫视",GuizhouTV.cn_备用2
-http://221.214.163.48:9989/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="GuizhouTV.cn" tvg-name="贵州卫视" tvg-logo="https://i.imgur.com/nkcKCdr.png" group-title="02 省级卫视",GuizhouTV.cn_备用3
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225793/index.m3u8
-#EXTINF:-1 tvg-id="GuizhouTV.cn" tvg-name="贵州卫视" tvg-logo="https://i.imgur.com/nkcKCdr.png" group-title="02 省级卫视",GuizhouTV.cn_备用4
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225626/index.m3u8
-#EXTINF:-1 tvg-id="GuizhouTV.cn" tvg-name="贵州卫视" tvg-logo="https://i.imgur.com/nkcKCdr.png" group-title="02 省级卫视",GuizhouTV.cn_备用5·IPv6
-http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
-#EXTINF:-1 tvg-id="YunnanSatelliteTV.cn" tvg-name="云南卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/yunnantv.jpg" group-title="02 省级卫视",YunnanSatelliteTV.cn_主源1·576p
-http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221225591/index.m3u8
-#EXTINF:-1 tvg-id="YunnanSatelliteTV.cn" tvg-name="云南卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/yunnantv.jpg" group-title="02 省级卫视",YunnanSatelliteTV.cn_备用2·576p
-http://39.134.115.163:8080/PLTV/88888910/224/3221225664/index.m3u8
-#EXTINF:-1 tvg-id="YunnanSatelliteTV.cn" tvg-name="云南卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/yunnantv.jpg" group-title="02 省级卫视",YunnanSatelliteTV.cn_备用3
-https://h5cul1yar48um3t.wcetv.com/hls/yunnantv.m3u8
-#EXTINF:-1 tvg-id="YunnanSatelliteTV.cn" tvg-name="云南卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/yunnantv.jpg" group-title="02 省级卫视",YunnanSatelliteTV.cn_备用4
-http://111.63.117.13:6060/030000001000/G_YUNNAN/G_YUNNAN.m3u8
-#EXTINF:-1 tvg-id="YunnanSatelliteTV.cn" tvg-name="云南卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/yunnantv.jpg" group-title="02 省级卫视",YunnanSatelliteTV.cn_备用5
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225751/index.m3u8
-#EXTINF:-1 tvg-id="XizangTVChinese.cn" tvg-name="西藏卫视" tvg-logo="https://i.imgur.com/V0v3ST5.png" group-title="02 省级卫视",XizangTVChinese.cn_主源1
-https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
-#EXTINF:-1 tvg-id="XizangTVChinese.cn" tvg-name="西藏卫视" tvg-logo="https://i.imgur.com/V0v3ST5.png" group-title="02 省级卫视",XizangTVChinese.cn_备用2
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226212/index.m3u8
-#EXTINF:-1 tvg-id="XizangTVChinese.cn" tvg-name="西藏卫视" tvg-logo="https://i.imgur.com/V0v3ST5.png" group-title="02 省级卫视",XizangTVChinese.cn_备用3
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225638/index.m3u8
-#EXTINF:-1 tvg-id="XizangTVChinese.cn" tvg-name="西藏卫视" tvg-logo="https://i.imgur.com/V0v3ST5.png" group-title="02 省级卫视",XizangTVChinese.cn_备用4
-http://140.249.29.151/liveplay-kk.rtxapp.com/live/program/live/xzws/2500000/mnf.m3u8
-#EXTINF:-1 tvg-id="XizangTVChinese.cn" tvg-name="西藏卫视" tvg-logo="https://i.imgur.com/V0v3ST5.png" group-title="02 省级卫视",XizangTVChinese.cn_备用5
-http://222.189.51.62:8888/newlive/live/hls/37/live.m3u8
-#EXTINF:-1 tvg-id="ShaanxiSatelliteTV.cn" tvg-name="陕西卫视" tvg-logo="https://i.imgur.com/BKi3QXB.png" group-title="02 省级卫视",ShaanxiSatelliteTV.cn_主源1
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225821/index.m3u8
-#EXTINF:-1 tvg-id="ShaanxiSatelliteTV.cn" tvg-name="陕西卫视" tvg-logo="https://i.imgur.com/BKi3QXB.png" group-title="02 省级卫视",ShaanxiSatelliteTV.cn_备用2
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226457/index.m3u8
-#EXTINF:-1 tvg-id="GansuSatelliteTV.cn" tvg-name="甘肃卫视" tvg-logo="https://i.imgur.com/GEDcQuU.png" group-title="02 省级卫视",GansuSatelliteTV.cn_主源1
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225754/index.m3u8
-#EXTINF:-1 tvg-id="GansuSatelliteTV.cn" tvg-name="甘肃卫视" tvg-logo="https://i.imgur.com/GEDcQuU.png" group-title="02 省级卫视",GansuSatelliteTV.cn_备用2
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225633/index.m3u8
-#EXTINF:-1 tvg-id="GansuSatelliteTV.cn" tvg-name="甘肃卫视" tvg-logo="https://i.imgur.com/GEDcQuU.png" group-title="02 省级卫视",GansuSatelliteTV.cn_备用3·IPv6
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010098/1.m3u8
-#EXTINF:-1 tvg-id="QinghaiTV.cn" tvg-name="青海卫视" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="02 省级卫视",QinghaiTV.cn_主源1
-https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
-#EXTINF:-1 tvg-id="QinghaiTV.cn" tvg-name="青海卫视" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="02 省级卫视",QinghaiTV.cn_备用2
-http://111.63.117.13:6060/030000001000/G_QINGHAI/G_QINGHAI.m3u8
-#EXTINF:-1 tvg-id="QinghaiTV.cn" tvg-name="青海卫视" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="02 省级卫视",QinghaiTV.cn_备用3
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226323/index.m3u8
-#EXTINF:-1 tvg-id="QinghaiTV.cn" tvg-name="青海卫视" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="02 省级卫视",QinghaiTV.cn_备用4
-http://stream.qhbtv.com/qhws/playlist.m3u8
-#EXTINF:-1 tvg-id="QinghaiTV.cn" tvg-name="青海卫视" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="02 省级卫视",QinghaiTV.cn_备用5·IPv6
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010111/1.m3u8
-#EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn" tvg-name="宁夏卫视" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="02 省级卫视",NingxiaSatelliteChannel.cn_主源1·576p
-http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225842/index.m3u8
-#EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn" tvg-name="宁夏卫视" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="02 省级卫视",NingxiaSatelliteChannel.cn_备用2·576p
-http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
-#EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn" tvg-name="宁夏卫视" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="02 省级卫视",NingxiaSatelliteChannel.cn_备用3·540p
-http://112.25.48.68/live/program/live/nxws/1300000/mnf.m3u8
-#EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn" tvg-name="宁夏卫视" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="02 省级卫视",NingxiaSatelliteChannel.cn_备用4
-https://hls.ningxiahuangheyun.com/live/nxws1M.m3u8
-#EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn" tvg-name="宁夏卫视" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="02 省级卫视",NingxiaSatelliteChannel.cn_备用5
-http://111.63.117.13:6060/030000001000/G_NINGXIA/G_NINGXIA.m3u8
-#EXTINF:-1 tvg-id="XinjiangTV1.cn" tvg-name="新疆卫视" tvg-logo="https://i.imgur.com/VLaQYn4.png" group-title="02 省级卫视",XinjiangTV1.cn_主源1
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225747/index.m3u8
-#EXTINF:-1 tvg-id="XinjiangTV1.cn" tvg-name="新疆卫视" tvg-logo="https://i.imgur.com/VLaQYn4.png" group-title="02 省级卫视",XinjiangTV1.cn_备用2
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8
-#EXTINF:-1 tvg-id="XinjiangTV1.cn" tvg-name="新疆卫视" tvg-logo="https://i.imgur.com/VLaQYn4.png" group-title="02 省级卫视",XinjiangTV1.cn_备用3
-https://klmysjtzb.rcsxzx.com/hls/klmy2.m3u8
-#EXTINF:-1 tvg-id="XinjiangTV1.cn" tvg-name="新疆卫视" tvg-logo="https://i.imgur.com/VLaQYn4.png" group-title="02 省级卫视",XinjiangTV1.cn_备用4
-http://111.63.117.13:6060/030000001000/G_XINJIANG/G_XINJIANG.m3u8
-#EXTINF:-1 tvg-id="XinjiangTV1.cn" tvg-name="新疆卫视" tvg-logo="https://i.imgur.com/VLaQYn4.png" group-title="02 省级卫视",XinjiangTV1.cn_备用5
-http://140.249.29.151/liveplay-kk.rtxapp.com/live/program/live/xjws/1300000/mnf.m3u8
-#EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn" tvg-name="深圳卫视" tvg-logo="" group-title="02 省级卫视",ShenzhenSatelliteTV.cn_主源1·1080p
-http://183.207.249.37/PLTV/4/224/3221227307/index.m3u8
-#EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn" tvg-name="深圳卫视" tvg-logo="" group-title="02 省级卫视",ShenzhenSatelliteTV.cn_备用2·1080p
-http://223.110.243.171/PLTV/3/224/3221227217/index.m3u8
-#EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn" tvg-name="深圳卫视" tvg-logo="" group-title="02 省级卫视",ShenzhenSatelliteTV.cn_备用3·1080p
-http://223.110.245.139/PLTV/4/224/3221227307/index.m3u8
-#EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn" tvg-name="深圳卫视" tvg-logo="" group-title="02 省级卫视",ShenzhenSatelliteTV.cn_备用4·1080p
-http://39.134.115.163:8080/PLTV/88888910/224/3221225700/index.m3u8
-#EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn" tvg-name="深圳卫视" tvg-logo="" group-title="02 省级卫视",ShenzhenSatelliteTV.cn_备用5·1080p
-http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226205/index.m3u8
-#EXTINF:-1 tvg-id="XiamenStarTVChina.cn" tvg-name="厦门卫视" tvg-logo="https://i.imgur.com/vDwOXvz.png" group-title="02 省级卫视",XiamenStarTVChina.cn_主源1
+#EXTINF:-1 tvg-id="ChongqingSatelliteTV.cn" tvg-name="重庆卫视" tvg-logo="https://i.imgur.com/t05JHEc.png" group-title="02 省级卫视",ChongqingSatelliteTV.cn_主源1·576p·本次实测
+http://112.123.243.37:50085/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="ChongqingSatelliteTV.cn" tvg-name="重庆卫视" tvg-logo="https://i.imgur.com/t05JHEc.png" group-title="02 省级卫视",ChongqingSatelliteTV.cn_备用2·1080p·偏慢待试
+http://125.125.236.31:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="SichuanSatelliteTV.cn" tvg-name="四川卫视" tvg-logo="https://i.imgur.com/r5xivih.png" group-title="02 省级卫视",SichuanSatelliteTV.cn_主源1·576p·本次实测
+http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="SichuanSatelliteTV.cn" tvg-name="四川卫视" tvg-logo="https://i.imgur.com/r5xivih.png" group-title="02 省级卫视",SichuanSatelliteTV.cn_备用2·576p·本次实测
+http://125.125.236.31:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="GuizhouTV.cn" tvg-name="贵州卫视" tvg-logo="https://i.imgur.com/nkcKCdr.png" group-title="02 省级卫视",GuizhouTV.cn_主源1·1080p·本次实测
+https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
+#EXTINF:-1 tvg-id="YunnanSatelliteTV.cn" tvg-name="云南卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/yunnantv.jpg" group-title="02 省级卫视",YunnanSatelliteTV.cn_主源1·576p·本次实测
+http://112.123.243.37:50085/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="YunnanSatelliteTV.cn" tvg-name="云南卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/yunnantv.jpg" group-title="02 省级卫视",YunnanSatelliteTV.cn_备用2·576p·本次实测
+http://125.125.236.31:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="XizangTVChinese.cn" tvg-name="西藏卫视" tvg-logo="https://i.imgur.com/V0v3ST5.png" group-title="02 省级卫视",XizangTVChinese.cn_主源1·576p·本次实测
+http://183.10.180.46:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="XizangTVChinese.cn" tvg-name="西藏卫视" tvg-logo="https://i.imgur.com/V0v3ST5.png" group-title="02 省级卫视",XizangTVChinese.cn_备用2·576p·本次实测
+http://59.39.89.130:60901/tsfile/live/0125_4.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="ShaanxiSatelliteTV.cn" tvg-name="陕西卫视" tvg-logo="https://i.imgur.com/BKi3QXB.png" group-title="02 省级卫视",ShaanxiSatelliteTV.cn_主源1·1080p·本次实测
+http://107.150.60.122/live/snwshd.m3u8
+#EXTINF:-1 tvg-id="ShaanxiSatelliteTV.cn" tvg-name="陕西卫视" tvg-logo="https://i.imgur.com/BKi3QXB.png" group-title="02 省级卫视",ShaanxiSatelliteTV.cn_备用2·1080p·本次实测
+http://192.151.150.154/live/snwshd.m3u8
+#EXTINF:-1 tvg-id="ShaanxiSatelliteTV.cn" tvg-name="陕西卫视" tvg-logo="https://i.imgur.com/BKi3QXB.png" group-title="02 省级卫视",ShaanxiSatelliteTV.cn_备用3·576p·本次实测
+http://183.10.180.46:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="ShaanxiSatelliteTV.cn" tvg-name="陕西卫视" tvg-logo="https://i.imgur.com/BKi3QXB.png" group-title="02 省级卫视",ShaanxiSatelliteTV.cn_备用4·576p·本次实测
+http://36.136.38.87:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="GansuSatelliteTV.cn" tvg-name="甘肃卫视" tvg-logo="https://i.imgur.com/GEDcQuU.png" group-title="02 省级卫视",GansuSatelliteTV.cn_主源1·1080p·本次实测
+http://183.10.180.46:9901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="GansuSatelliteTV.cn" tvg-name="甘肃卫视" tvg-logo="https://i.imgur.com/GEDcQuU.png" group-title="02 省级卫视",GansuSatelliteTV.cn_备用2·576p·本次实测
+http://112.123.243.37:50085/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="GansuSatelliteTV.cn" tvg-name="甘肃卫视" tvg-logo="https://i.imgur.com/GEDcQuU.png" group-title="02 省级卫视",GansuSatelliteTV.cn_备用3·576p·本次实测
+http://113.25.252.226:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="QinghaiTV.cn" tvg-name="青海卫视" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="02 省级卫视",QinghaiTV.cn_主源1·576p·本次实测
+http://113.25.252.226:9901/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn" tvg-name="宁夏卫视" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="02 省级卫视",NingxiaSatelliteChannel.cn_主源1·576p·本次实测
+http://183.10.180.46:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn" tvg-name="宁夏卫视" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="02 省级卫视",NingxiaSatelliteChannel.cn_备用2·576p·偏慢待试
+http://218.13.170.98:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="XinjiangTV1.cn" tvg-name="新疆卫视" tvg-logo="https://i.imgur.com/VLaQYn4.png" group-title="02 省级卫视",XinjiangTV1.cn_主源1·576p·本次实测
+http://112.123.243.37:50085/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="XinjiangTV1.cn" tvg-name="新疆卫视" tvg-logo="https://i.imgur.com/VLaQYn4.png" group-title="02 省级卫视",XinjiangTV1.cn_备用2·576p·本次实测
+http://183.10.180.46:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="XinjiangTV1.cn" tvg-name="新疆卫视" tvg-logo="https://i.imgur.com/VLaQYn4.png" group-title="02 省级卫视",XinjiangTV1.cn_备用3·576p·本次实测
+http://59.39.89.130:60901/tsfile/live/0125_17.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="XinjiangTV1.cn" tvg-name="新疆卫视" tvg-logo="https://i.imgur.com/VLaQYn4.png" group-title="02 省级卫视",XinjiangTV1.cn_备用4·576p·本次实测
+http://222.169.85.8:9901/tsfile/live/0110_1.m3u8
+#EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn" tvg-name="深圳卫视" tvg-logo="" group-title="02 省级卫视",ShenzhenSatelliteTV.cn_主源1·1080p·本次实测
+http://107.150.60.122/live/szwshd.m3u8
+#EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn" tvg-name="深圳卫视" tvg-logo="" group-title="02 省级卫视",ShenzhenSatelliteTV.cn_备用2·576p·本次实测
+http://36.136.38.87:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn" tvg-name="深圳卫视" tvg-logo="" group-title="02 省级卫视",ShenzhenSatelliteTV.cn_备用3·576p·本次实测
+http://125.125.236.31:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="XiamenStarTVChina.cn" tvg-name="厦门卫视" tvg-logo="https://i.imgur.com/vDwOXvz.png" group-title="02 省级卫视",XiamenStarTVChina.cn_主源1·576p·本次实测
 https://epg.pw/stream/aa65dd411565991ace44f9e5934bd018fdd52122e052d471a363b6ee839e1079.ctv
-#EXTINF:-1 tvg-id="XiamenStarTVChina.cn" tvg-name="厦门卫视" tvg-logo="https://i.imgur.com/vDwOXvz.png" group-title="02 省级卫视",XiamenStarTVChina.cn_备用2
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226219/index.m3u8
-#EXTINF:-1 tvg-id="BingtuanSatelliteTV.cn" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="02 省级卫视",BingtuanSatelliteTV.cn_主源1·540p
-http://112.25.48.68/live/program/live/btws/1300000/mnf.m3u8
-#EXTINF:-1 tvg-id="BingtuanSatelliteTV.cn" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="02 省级卫视",BingtuanSatelliteTV.cn_备用2
-http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226214/index.m3u8
-#EXTINF:-1 tvg-id="BingtuanSatelliteTV.cn" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="02 省级卫视",BingtuanSatelliteTV.cn_备用3
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226214/index.m3u8
-#EXTINF:-1 tvg-id="KangbaTV.cn" tvg-name="康巴卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/kangbatv.jpg" group-title="02 省级卫视",KangbaTV.cn_主源1
+#EXTINF:-1 tvg-id="BingtuanSatelliteTV.cn" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="02 省级卫视",BingtuanSatelliteTV.cn_主源1·576p·本次实测
+http://112.123.243.37:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="BingtuanSatelliteTV.cn" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="02 省级卫视",BingtuanSatelliteTV.cn_备用2·576p·本次实测
+http://183.10.180.46:9901/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="BingtuanSatelliteTV.cn" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="02 省级卫视",BingtuanSatelliteTV.cn_备用3·576p·本次实测
+http://59.39.89.130:60901/tsfile/live/0125_9.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="KangbaTV.cn" tvg-name="康巴卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/kangbatv.jpg" group-title="02 省级卫视",KangbaTV.cn_主源1·1080p·本次实测
 http://110.185.237.164:8888/hls/30/index.m3u8
-#EXTINF:-1 tvg-id="KangbaTV.cn" tvg-name="康巴卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/kangbatv.jpg" group-title="02 省级卫视",KangbaTV.cn_备用2
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226234/index.m3u8
-#EXTINF:-1 tvg-id="KangbaTV.cn" tvg-name="康巴卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/kangbatv.jpg" group-title="02 省级卫视",KangbaTV.cn_备用3
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8
-#EXTINF:-1 tvg-id="GBASatelliteTV.cn" tvg-name="大湾区卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/greaterbayarea.jpg" group-title="02 省级卫视",GBASatelliteTV.cn_主源1
+#EXTINF:-1 tvg-id="GBASatelliteTV.cn" tvg-name="大湾区卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/greaterbayarea.jpg" group-title="02 省级卫视",GBASatelliteTV.cn_主源1·画质待试·未通过待试
 https://iptv-search.com/play/mn344kbf9x2ebpfk/82698125
-#EXTINF:-1 tvg-id="GBASatelliteTV.cn" tvg-name="大湾区卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/greaterbayarea.jpg" group-title="02 省级卫视",GBASatelliteTV.cn_备用2
+#EXTINF:-1 tvg-id="GBASatelliteTV.cn" tvg-name="大湾区卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/greaterbayarea.jpg" group-title="02 省级卫视",GBASatelliteTV.cn_备用2·画质待试·未通过待试
 http://183.238.248.83:9000/udp/239.21.0.84:3676
-#EXTINF:-1 tvg-id="GBASatelliteTV.cn" tvg-name="大湾区卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/greaterbayarea.jpg" group-title="02 省级卫视",GBASatelliteTV.cn_备用3
+#EXTINF:-1 tvg-id="GBASatelliteTV.cn" tvg-name="大湾区卫视" tvg-logo="https://www.tvchinese.net/uploads/tv/greaterbayarea.jpg" group-title="02 省级卫视",GBASatelliteTV.cn_备用3·画质待试·未通过待试
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226218/index.m3u8
-#EXTINF:-1 tvg-id="SanshaTV.cn" tvg-name="三沙卫视" tvg-logo="https://i.imgur.com/u80SRzi.png" group-title="02 省级卫视",SanshaTV.cn_主源1
+#EXTINF:-1 tvg-id="SanshaTV.cn" tvg-name="三沙卫视" tvg-logo="https://i.imgur.com/u80SRzi.png" group-title="02 省级卫视",SanshaTV.cn_主源1·画质待试·未通过待试
 https://iptv-search.com/play/mn34akjzpidao7sm/e546907e
 #EXTINF:-1 tvg-id="Jade.hk" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="03 港澳台主要频道",Jade.hk_主源1·1080p
 http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
@@ -614,26 +439,10 @@ https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
 #EXTINF:-1 tvg-id="RTHKTV32.hk" tvg-name="港台电视32" tvg-logo="https://i.imgur.com/MXLuUoU.png" group-title="03 港澳台主要频道",RTHKTV32.hk_备用2·360p·限区
 https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
-#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 港澳台主要频道",PhoenixChineseChannel.hk_主源1·576p
-http://125.210.152.18:9090/live/FHZW_1200.m3u8
-#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 港澳台主要频道",PhoenixChineseChannel.hk_备用2
-https://ctrl.laotv.la/live/PhxChinese/index.m3u8
-#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 港澳台主要频道",PhoenixChineseChannel.hk_备用3
-https://iptv-search.com/play/mn1ksy8se5wz18tc/2507d456
-#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 港澳台主要频道",PhoenixChineseChannel.hk_备用4
-http://111.20.40.166/PLTV/88888893/224/3221226547/index.m3u8
-#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 港澳台主要频道",PhoenixChineseChannel.hk_备用5
-http://117.27.190.42:9998/tsfile/live/23280_1.m3u8
-#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="03 港澳台主要频道",PhoenixInfoNewsChannel.hk_主源1
-https://ctrl.laotv.la/live/PhoenixNews/index.m3u8
-#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="03 港澳台主要频道",PhoenixInfoNewsChannel.hk_备用2
-https://iptv-search.com/play/mn1kt2ocja91ra63/b494d83e
-#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="03 港澳台主要频道",PhoenixInfoNewsChannel.hk_备用3
-http://117.27.190.42:9998/tsfile/live/23279_1.m3u8
-#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="03 港澳台主要频道",PhoenixInfoNewsChannel.hk_备用4
+#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 港澳台主要频道",PhoenixChineseChannel.hk_主源1·576p·本次实测
+http://183.10.180.46:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="03 港澳台主要频道",PhoenixInfoNewsChannel.hk_主源1·720p·本次实测
 http://173.208.234.146/live/fhzx.m3u8
-#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="03 港澳台主要频道",PhoenixInfoNewsChannel.hk_备用5
-http://nas.jdshipin.com:8801/fhx.php?id=1
 #EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 港澳台主要频道",PhoenixHongKongChannel.hk_主源1
 http://nas.jdshipin.com:8801/fhx.php?id=3
 #EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 港澳台主要频道",PhoenixHongKongChannel.hk_备用2
