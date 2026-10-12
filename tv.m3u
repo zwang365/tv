@@ -46,16 +46,10 @@ https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 #EXTINF:-1 tvg-id="CCTV4America.cn" tvg-name="CCTV-4 中文国际美洲" tvg-logo="https://i.imgur.com/VAm2Ofz.png" group-title="01 央视",CCTV4America.cn_备用2
 https://h5cul1yar48um3t.wcetv.com/hls/cctv4.m3u8
-#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_主源1
-http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226731/1.m3u8
-#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_备用2
-http://125.210.152.19:9120/live/hzgq-cctv5gq-h264.m3u8
-#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_备用3
-http://221.213.43.82:8888/newlive/live/hls/6/live.m3u8
-#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_备用4
-http://221.214.163.48:9989/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_备用5
-http://223.109.210.41/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel41140/index.m3u8
+#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_主源1·1080p·本次实测
+http://120.76.248.139/live/bfgd/4200000064.m3u8
+#EXTINF:-1 tvg-id="CCTV5.cn" tvg-name="CCTV-5 体育" tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="01 央视",CCTV5.cn_备用2·1080p·较慢待试
+http://183.11.239.36:808/hls/93/index.m3u8
 #EXTINF:-1 tvg-id="CCTV5Plus.cn" tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="01 央视",CCTV5Plus.cn_主源1
 http://120.196.232.51:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226711/1.m3u8
 #EXTINF:-1 tvg-id="CCTV5Plus.cn" tvg-name="CCTV-5+ 体育赛事" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="01 央视",CCTV5Plus.cn_备用2
