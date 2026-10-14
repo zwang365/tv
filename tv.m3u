@@ -482,6 +482,8 @@ http://seb.sason.top/sc/sllive_fhd.m3u8
 https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
 #EXTINF:-1 tvg-id="local.TVBPlus" tvg-name="TVBPlus（待修复）" tvg-logo="" group-title="03 香港台湾主要频道",TVBPlus（待修复）｜待修复·历史线路1·本轮未通过
 https://cdn3.indevs.in/stream/tvb/tvbp/
+#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk" tvg-name="美亚电影台" tvg-logo="https://i.imgur.com/laGiFM1.png" group-title="03 香港台湾主要频道",美亚电影台 MEI AH MOVIE CHANNEL｜主源·1920×1080·60秒实测
+http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8
 #EXTINF:-1 tvg-id="ABCNews.au" tvg-name="ABC News" tvg-logo="https://i.imgur.com/BrW7gk8.png" group-title="04 国际新闻",ABCNews.au_主源1·720p
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
 #EXTINF:-1 tvg-id="ABCNews.au" tvg-name="ABC News" tvg-logo="https://i.imgur.com/BrW7gk8.png" group-title="04 国际新闻",ABCNews.au_备用2
