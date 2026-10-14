@@ -438,7 +438,9 @@ https://iptv-search.com/play/mn1kuz03xare8nyp/4399f43d
 https://pi.0472.org/tv/mzt.php?auth=231110
 #EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-name="TVB无线新闻（待修复）" tvg-logo="https://i.imgur.com/Gwij0Fj.png" group-title="03 香港台湾主要频道",TVB无线新闻（待修复）｜待修复·历史线路1·本轮未通过
 http://protv.fun/play/live.php?mac=00:1A:79:50:63:9E&stream=153399&extension=ts
-#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 香港台湾主要频道",凤凰中文｜主源·720×576·约60秒实测·非高清
+#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 香港台湾主要频道",凤凰中文｜主源·720P·H.264·60秒实测·HTTP-FLV
+http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv
+#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 香港台湾主要频道",凤凰中文｜备用1·576·HLS·原主源
 http://183.10.180.46:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="03 香港台湾主要频道",凤凰资讯｜主源·1280×720·约60秒实测
 http://173.208.234.146/live/fhzx.m3u8
