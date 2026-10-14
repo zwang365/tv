@@ -1,5 +1,5 @@
 #EXTM3U
-# Sports and HBO update 2026-10-14; existing channels and source order preserved.
+# Updated 2026-10-14. Pending channels are retained by request; not counted as playable.
 #EXTINF:-1 tvg-id="CCTV1.cn" tvg-name="CCTV-1 综合" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="01 央视",CCTV1.cn_主源1·1080p·60秒实测
 http://219.147.245.238:25480/newlive/live/hls/1/live.m3u8
 #EXTINF:-1 tvg-id="CCTV1.cn" tvg-name="CCTV-1 综合" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="01 央视",CCTV1.cn_备用2·1080高清·含隔行特征·60秒实测
@@ -424,119 +424,61 @@ http://183.238.248.83:9000/udp/239.21.0.84:3676
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226218/index.m3u8
 #EXTINF:-1 tvg-id="SanshaTV.cn" tvg-name="三沙卫视" tvg-logo="https://i.imgur.com/u80SRzi.png" group-title="02 省级卫视",SanshaTV.cn_主源1·画质待试·未通过待试
 https://iptv-search.com/play/mn34akjzpidao7sm/e546907e
-#EXTINF:-1 tvg-id="Jade.hk" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="03 港澳台主要频道",Jade.hk_主源1·1080p
+#EXTINF:-1 tvg-id="Jade.hk" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="03 香港台湾主要频道",翡翠台｜主源·1920×1080·约60秒实测
 http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
-#EXTINF:-1 tvg-id="Jade.hk" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="03 港澳台主要频道",Jade.hk_备用2
-https://cdn3.indevs.in/stream/tvb/fct/
-#EXTINF:-1 tvg-id="Jade.hk" tvg-name="翡翠台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="03 港澳台主要频道",Jade.hk_备用3
-https://iptv-search.com/play/mn1ksmz7wpdio2n7/dbf15352
-#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台" tvg-logo="https://i.imgur.com/UPdcMkW.png" group-title="03 港澳台主要频道",Pearl.hk_主源1
+#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台（待修复）" tvg-logo="https://i.imgur.com/UPdcMkW.png" group-title="03 香港台湾主要频道",明珠台（待修复）｜待修复·临时1080源·花屏
+http://bziyunshao.synology.me:8890/bysid/2
+#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台（待修复）" tvg-logo="https://i.imgur.com/UPdcMkW.png" group-title="03 香港台湾主要频道",明珠台（待修复）｜待修复·历史线路1·本轮未通过
 https://cdn3.indevs.in/stream/tvb/mzt/
-#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台" tvg-logo="https://i.imgur.com/UPdcMkW.png" group-title="03 港澳台主要频道",Pearl.hk_备用2
+#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台（待修复）" tvg-logo="https://i.imgur.com/UPdcMkW.png" group-title="03 香港台湾主要频道",明珠台（待修复）｜待修复·历史线路2·本轮未通过
 http://107.151.203.111:2209/135/hk.php?id=tvbmzt
-#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台" tvg-logo="https://i.imgur.com/UPdcMkW.png" group-title="03 港澳台主要频道",Pearl.hk_备用3
+#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台（待修复）" tvg-logo="https://i.imgur.com/UPdcMkW.png" group-title="03 香港台湾主要频道",明珠台（待修复）｜待修复·历史线路3·本轮未通过
 https://iptv-search.com/play/mn1kuz03xare8nyp/4399f43d
-#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台" tvg-logo="https://i.imgur.com/UPdcMkW.png" group-title="03 港澳台主要频道",Pearl.hk_备用4
+#EXTINF:-1 tvg-id="Pearl.hk" tvg-name="明珠台（待修复）" tvg-logo="https://i.imgur.com/UPdcMkW.png" group-title="03 香港台湾主要频道",明珠台（待修复）｜待修复·历史线路4·本轮未通过
 https://pi.0472.org/tv/mzt.php?auth=231110
-#EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-name="TVB无线新闻" tvg-logo="https://i.imgur.com/Gwij0Fj.png" group-title="03 港澳台主要频道",TVBNewsChannel.hk_主源1
+#EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-name="TVB无线新闻（待修复）" tvg-logo="https://i.imgur.com/Gwij0Fj.png" group-title="03 香港台湾主要频道",TVB无线新闻（待修复）｜待修复·历史线路1·本轮未通过
 http://protv.fun/play/live.php?mac=00:1A:79:50:63:9E&stream=153399&extension=ts
-#EXTINF:-1 tvg-id="RTHKTV31.hk" tvg-name="港台电视31" tvg-logo="https://i.imgur.com/kf818kM.png" group-title="03 港澳台主要频道",RTHKTV31.hk_主源1·1080p·限区
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
-#EXTINF:-1 tvg-id="RTHKTV31.hk" tvg-name="港台电视31" tvg-logo="https://i.imgur.com/kf818kM.png" group-title="03 港澳台主要频道",RTHKTV31.hk_备用2·360p·限区
-https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
-#EXTINF:-1 tvg-id="RTHKTV32.hk" tvg-name="港台电视32" tvg-logo="https://i.imgur.com/MXLuUoU.png" group-title="03 港澳台主要频道",RTHKTV32.hk_主源1·1080p·限区
-https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
-#EXTINF:-1 tvg-id="RTHKTV32.hk" tvg-name="港台电视32" tvg-logo="https://i.imgur.com/MXLuUoU.png" group-title="03 港澳台主要频道",RTHKTV32.hk_备用2·360p·限区
-https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
-#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 港澳台主要频道",PhoenixChineseChannel.hk_主源1·576p·本次实测
+#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="凤凰中文" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="03 香港台湾主要频道",凤凰中文｜主源·720×576·约60秒实测·非高清
 http://183.10.180.46:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="03 港澳台主要频道",PhoenixInfoNewsChannel.hk_主源1·720p·本次实测
+#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="03 香港台湾主要频道",凤凰资讯｜主源·1280×720·约60秒实测
 http://173.208.234.146/live/fhzx.m3u8
-#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 港澳台主要频道",PhoenixHongKongChannel.hk_主源1
+#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港（待修复）" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 香港台湾主要频道",凤凰香港（待修复）｜待修复·历史线路1·本轮未通过
 http://nas.jdshipin.com:8801/fhx.php?id=3
-#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 港澳台主要频道",PhoenixHongKongChannel.hk_备用2
+#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港（待修复）" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 香港台湾主要频道",凤凰香港（待修复）｜待修复·历史线路2·本轮未通过
 https://iptv-search.com/play/mn1kst2aw4wa11jl/358c68f9
-#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 港澳台主要频道",PhoenixHongKongChannel.hk_备用3
+#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港（待修复）" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 香港台湾主要频道",凤凰香港（待修复）｜待修复·历史线路3·本轮未通过
 http://103.95.24.37:880/fhxgt.m3u8
-#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 港澳台主要频道",PhoenixHongKongChannel.hk_备用4
+#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港（待修复）" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 香港台湾主要频道",凤凰香港（待修复）｜待修复·历史线路4·本轮未通过
 http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
-#EXTINF:-1 tvg-id="nowNews.hk" tvg-name="NOW新闻台" tvg-logo="https://i.imgur.com/m6tWo9p.png" group-title="03 港澳台主要频道",nowNews.hk_主源1
+#EXTINF:-1 tvg-id="nowNews.hk" tvg-name="NOW新闻台（待修复）" tvg-logo="https://i.imgur.com/m6tWo9p.png" group-title="03 香港台湾主要频道",NOW新闻台（待修复）｜待修复·历史线路1·本轮未通过
 http://cdn.123.rr.kg/163189/now
-#EXTINF:-1 tvg-id="HKSTV.hk" tvg-name="香港卫视" tvg-logo="https://i.imgur.com/UhwlxwL.png" group-title="03 港澳台主要频道",HKSTV.hk_主源1·720p
+#EXTINF:-1 tvg-id="HKSTV.hk" tvg-name="香港卫视" tvg-logo="https://i.imgur.com/UhwlxwL.png" group-title="03 香港台湾主要频道",香港卫视｜主源·1280×720·约60秒实测
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-#EXTINF:-1 tvg-id="HKSTV.hk" tvg-name="香港卫视" tvg-logo="https://i.imgur.com/UhwlxwL.png" group-title="03 港澳台主要频道",HKSTV.hk_备用2
-http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-#EXTINF:-1 tvg-id="HKSTV.hk" tvg-name="香港卫视" tvg-logo="https://i.imgur.com/UhwlxwL.png" group-title="03 港澳台主要频道",HKSTV.hk_备用3
-http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0
-#EXTINF:-1 tvg-id="TDMOuMun.mo" tvg-name="澳视澳门" tvg-logo="https://i.imgur.com/qDI3aMp.png" group-title="03 港澳台主要频道",TDMOuMun.mo_主源1
-http://cdn6.123.rr.kg/163189/asam
-#EXTINF:-1 tvg-id="TDMOuMun.mo" tvg-name="澳视澳门" tvg-logo="https://i.imgur.com/qDI3aMp.png" group-title="03 港澳台主要频道",TDMOuMun.mo_备用2·720p
-https://live3.tdm.com.mo/ch1/ch1.live/playlist.m3u8
-#EXTINF:-1 tvg-id="TDMOuMun.mo" tvg-name="澳视澳门" tvg-logo="https://i.imgur.com/qDI3aMp.png" group-title="03 港澳台主要频道",TDMOuMun.mo_备用3·720p
-http://61.244.22.4/ch1/ch1.live/playlist.m3u8
-#EXTINF:-1 tvg-id="TDMOuMun.mo" tvg-name="澳视澳门" tvg-logo="https://i.imgur.com/qDI3aMp.png" group-title="03 港澳台主要频道",TDMOuMun.mo_备用4
-http://183.237.246.14:9931/tsfile/live/1039_1.m3u8
-#EXTINF:-1 tvg-id="TDMMacauSatellite.mo" tvg-name="澳门卫星" tvg-logo="https://i.imgur.com/iIfZsD6.png" group-title="03 港澳台主要频道",TDMMacauSatellite.mo_主源1
-http://cdn6.123.rr.kg/163189/as
-#EXTINF:-1 tvg-id="TDMMacauSatellite.mo" tvg-name="澳门卫星" tvg-logo="https://i.imgur.com/iIfZsD6.png" group-title="03 港澳台主要频道",TDMMacauSatellite.mo_备用2·720p
-https://live3.tdm.com.mo/ch3/ch3.live/playlist.m3u8
-#EXTINF:-1 tvg-id="TDMEntertainment.mo" tvg-name="澳门综艺" tvg-logo="https://i.imgur.com/7ml2bfx.png" group-title="03 港澳台主要频道",TDMEntertainment.mo_主源1
-http://cdn6.123.rr.kg/163189/amzy
-#EXTINF:-1 tvg-id="TDMEntertainment.mo" tvg-name="澳门综艺" tvg-logo="https://i.imgur.com/7ml2bfx.png" group-title="03 港澳台主要频道",TDMEntertainment.mo_备用2·720p
-https://live3.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
-#EXTINF:-1 tvg-id="TDMInformation.mo" tvg-name="澳门资讯" tvg-logo="https://i.imgur.com/h7HfsLx.png" group-title="03 港澳台主要频道",TDMInformation.mo_主源1·720p
-https://live3.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
-#EXTINF:-1 tvg-id="TDMInformation.mo" tvg-name="澳门资讯" tvg-logo="https://i.imgur.com/h7HfsLx.png" group-title="03 港澳台主要频道",TDMInformation.mo_备用2
-https://iptv-search.com/play/mn1ks8a1cz960mkq/82aefe76
-#EXTINF:-1 tvg-id="TDMSports.mo" tvg-name="澳门体育" tvg-logo="https://i.imgur.com/AsWLf8S.png" group-title="03 港澳台主要频道",TDMSports.mo_主源1
-http://cdn6.123.rr.kg/163189/amty
-#EXTINF:-1 tvg-id="TDMSports.mo" tvg-name="澳门体育" tvg-logo="https://i.imgur.com/AsWLf8S.png" group-title="03 港澳台主要频道",TDMSports.mo_备用2·720p
-https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalMacau.mo" tvg-name="澳视葡文" tvg-logo="https://i.imgur.com/oFPUZ97.png" group-title="03 港澳台主要频道",CanalMacau.mo_主源1·720p
-https://live3.tdm.com.mo/ch2/ch2.live/playlist.m3u8
-#EXTINF:-1 tvg-id="LotusTV.mo" tvg-name="澳门莲花" tvg-logo="https://i.imgur.com/7j8Lnog.png" group-title="03 港澳台主要频道",LotusTV.mo_主源1
-http://107.151.203.111:2209/135/hk.php?id=amlh
-#EXTINF:-1 tvg-id="LotusTV.mo" tvg-name="澳门莲花" tvg-logo="https://i.imgur.com/7j8Lnog.png" group-title="03 港澳台主要频道",LotusTV.mo_备用2
-http://anren.live/HK/BiIOU11uLA.m3u8
-#EXTINF:-1 tvg-id="LotusTV.mo" tvg-name="澳门莲花" tvg-logo="https://i.imgur.com/7j8Lnog.png" group-title="03 港澳台主要频道",LotusTV.mo_备用3
-http://cdn6.123.rr.kg/163189/amlh
-#EXTINF:-1 tvg-id="LotusTV.mo" tvg-name="澳门莲花" tvg-logo="https://i.imgur.com/7j8Lnog.png" group-title="03 港澳台主要频道",LotusTV.mo_备用4
-https://play-sh.quklive.com/live/1780907795235397.m3u8
-#EXTINF:-1 tvg-id="LotusTV.mo" tvg-name="澳门莲花" tvg-logo="https://i.imgur.com/7j8Lnog.png" group-title="03 港澳台主要频道",LotusTV.mo_备用5
-https://dispatch.ulivetv.net/v/live/cl7c8hsq3f0g.m3u8?stream_id=cl7c8hsq3f0g&timestamp=1686276695&rand=hhTD3R8sUy&uuid=9b647b3816b2a66a&from=web&sign=1e0e9f5adb516bf4b7ce08da1b25510c
-#EXTINF:-1 tvg-id="TTV.tw" tvg-name="台视" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/32/TTV_2nd_logo.svg/960px-TTV_2nd_logo.svg.png" group-title="03 港澳台主要频道",TTV.tw_主源1·720p
-http://162.19.247.76:22222/live/taishi/index.m3u8
-#EXTINF:-1 tvg-id="CTS.tw" tvg-name="华视" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="03 港澳台主要频道",CTS.tw_主源1
+#EXTINF:-1 tvg-id="TTV.tw" tvg-name="台视" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/32/TTV_2nd_logo.svg/960px-TTV_2nd_logo.svg.png" group-title="03 香港台湾主要频道",台视｜主源·1280×720·约60秒实测·HEVC
+http://211.72.174.95:8112/0.ts
+#EXTINF:-1 tvg-id="CTS.tw" tvg-name="华视（待修复）" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png" group-title="03 香港台湾主要频道",华视（待修复）｜待修复·历史线路1·本轮未通过
 https://iptv-search.com/play/mn1kt8195o2eskc2/d61be5f3
-#EXTINF:-1 tvg-id="FTV.tw" tvg-name="民视" tvg-logo="https://i.imgur.com/q8ahtbT.png" group-title="03 港澳台主要频道",FTV.tw_主源1·720p
-http://seb.sason.top/ptv/ftv.php?id=ms
-#EXTINF:-1 tvg-id="FTV.tw" tvg-name="民视" tvg-logo="https://i.imgur.com/q8ahtbT.png" group-title="03 港澳台主要频道",FTV.tw_备用2
+#EXTINF:-1 tvg-id="FTV.tw" tvg-name="民视" tvg-logo="https://i.imgur.com/q8ahtbT.png" group-title="03 香港台湾主要频道",民视｜主源·1920×1080·约60秒实测·HEVC含隔行特征
 http://211.72.174.95:8115/0.ts
-#EXTINF:-1 tvg-id="PTS.tw" tvg-name="公视" tvg-logo="https://i.imgur.com/R9hwOZx.png" group-title="03 港澳台主要频道",PTS.tw_主源1
-http://211.72.174.95:8116/0.ts
-#EXTINF:-1 tvg-id="TVBSNews.tw" tvg-name="TVBS新闻" tvg-logo="https://i.imgur.com/171lwfg.png" group-title="03 港澳台主要频道",TVBSNews.tw_主源1
+#EXTINF:-1 tvg-id="PTS.tw" tvg-name="公视（待修复）" tvg-logo="https://i.imgur.com/R9hwOZx.png" group-title="03 香港台湾主要频道",公视（待修复）｜待修复·历史候选占位·连接失败·台标未核实
+http://50.7.220.74:8278/ctv_taiwan/playlist.m3u8?tid=m33b41eb996d0&ct=18336&tsum=ea5304d5140e9a3d2a32aece896feeed
+#EXTINF:-1 tvg-id="TVBSNews.tw" tvg-name="TVBS新闻" tvg-logo="https://i.imgur.com/171lwfg.png" group-title="03 香港台湾主要频道",TVBS新闻｜主源·1920×1080·约60秒实测
 https://d2jc41c1shgcol.cloudfront.net/live/tvbsnewsqt/playlist.m3u8
-#EXTINF:-1 tvg-id="TVBSNews.tw" tvg-name="TVBS新闻" tvg-logo="https://i.imgur.com/171lwfg.png" group-title="03 港澳台主要频道",TVBSNews.tw_备用2·限区
-http://seb.sason.top/sc/tvbsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="CTiNews.tw" tvg-name="中天新闻" tvg-logo="https://i.imgur.com/FZONZEr.png" group-title="03 港澳台主要频道",CTiNews.tw_主源1
+#EXTINF:-1 tvg-id="CTiNews.tw" tvg-name="中天新闻" tvg-logo="https://i.imgur.com/FZONZEr.png" group-title="03 香港台湾主要频道",中天新闻｜主源·1920×1080·约60秒实测
 https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
-#EXTINF:-1 tvg-id="FTVNews.tw" tvg-name="民视新闻" tvg-logo="https://i.imgur.com/j9Gebr5.png" group-title="03 港澳台主要频道",FTVNews.tw_主源1
+#EXTINF:-1 tvg-id="FTVNews.tw" tvg-name="民视新闻" tvg-logo="https://i.imgur.com/j9Gebr5.png" group-title="03 香港台湾主要频道",民视新闻｜主源·1920×1080·约60秒实测
 https://d2jc41c1shgcol.cloudfront.net/live/ftvnewsqt/playlist.m3u8
-#EXTINF:-1 tvg-id="CTSNews.tw" tvg-name="华视新闻" tvg-logo="https://i.imgur.com/V1EVtRm.png" group-title="03 港澳台主要频道",CTSNews.tw_主源1
+#EXTINF:-1 tvg-id="FTVNews.tw" tvg-name="民视新闻" tvg-logo="https://i.imgur.com/j9Gebr5.png" group-title="03 香港台湾主要频道",民视新闻｜备用1·1920×1080·60秒实测·另一服务器
+http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
+#EXTINF:-1 tvg-id="CTSNews.tw" tvg-name="华视新闻" tvg-logo="https://i.imgur.com/V1EVtRm.png" group-title="03 香港台湾主要频道",华视新闻｜主源·1920×1080·约60秒实测
 https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8
-#EXTINF:-1 tvg-id="CTSNews.tw" tvg-name="华视新闻" tvg-logo="https://i.imgur.com/V1EVtRm.png" group-title="03 港澳台主要频道",CTSNews.tw_备用2·限区
-http://seb.sason.top/sc/hsxw_fhd.m3u8
-#EXTINF:-1 tvg-id="ETTVNews.tw" tvg-name="东森新闻" tvg-logo="https://i.imgur.com/rNsyiyc.png" group-title="03 港澳台主要频道",ETTVNews.tw_主源1
+#EXTINF:-1 tvg-id="ETTVNews.tw" tvg-name="东森新闻" tvg-logo="https://i.imgur.com/rNsyiyc.png" group-title="03 香港台湾主要频道",东森新闻｜主源·1920×1080·约60秒实测
 https://d2jc41c1shgcol.cloudfront.net/live/EBCNews/playlist.m3u8
-#EXTINF:-1 tvg-id="ETTVNews.tw" tvg-name="东森新闻" tvg-logo="https://i.imgur.com/rNsyiyc.png" group-title="03 港澳台主要频道",ETTVNews.tw_备用2
-http://61.221.81.93:8078/hls/33/80/ebcnews.m3u8
-#EXTINF:-1 tvg-id="SETNews.tw" tvg-name="三立新闻" tvg-logo="https://i.imgur.com/EGVbAvJ.png" group-title="03 港澳台主要频道",SETNews.tw_主源1
-https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8
-#EXTINF:-1 tvg-id="SETNews.tw" tvg-name="三立新闻" tvg-logo="https://i.imgur.com/EGVbAvJ.png" group-title="03 港澳台主要频道",SETNews.tw_备用2·1080p·限区
+#EXTINF:-1 tvg-id="SETNews.tw" tvg-name="三立新闻（待修复）" tvg-logo="https://i.imgur.com/EGVbAvJ.png" group-title="03 香港台湾主要频道",三立新闻（待修复）｜待修复·历史线路2·本轮未通过
 http://seb.sason.top/sc/sllive_fhd.m3u8
-#EXTINF:-1 tvg-id="CTVNewsChannel.tw" tvg-name="中视新闻" tvg-logo="https://i.imgur.com/0CYU3N0.png" group-title="03 港澳台主要频道",CTVNewsChannel.tw_主源1
+#EXTINF:-1 tvg-id="CTVNewsChannel.tw" tvg-name="中视新闻" tvg-logo="https://i.imgur.com/0CYU3N0.png" group-title="03 香港台湾主要频道",中视新闻｜主源·1920×1080·约60秒实测
 https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
-#EXTINF:-1 tvg-id="local.TVBPlus" tvg-name="TVBPlus" tvg-logo="" group-title="03 港澳台主要频道",local.TVBPlus_主源1
+#EXTINF:-1 tvg-id="local.TVBPlus" tvg-name="TVBPlus（待修复）" tvg-logo="" group-title="03 香港台湾主要频道",TVBPlus（待修复）｜待修复·历史线路1·本轮未通过
 https://cdn3.indevs.in/stream/tvb/tvbp/
 #EXTINF:-1 tvg-id="ABCNews.au" tvg-name="ABC News" tvg-logo="https://i.imgur.com/BrW7gk8.png" group-title="04 国际新闻",ABCNews.au_主源1·720p
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
@@ -570,7 +512,7 @@ https://0472.org/hls/cgtn.m3u8
 https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
 #EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/CNN.png" group-title="04 国际新闻",CNNInternational.us_备用2
 http://88.212.15.17/live/test_cnn_1200_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="CNNInternational.us@AsiaPacific" tvg-name="CNN International Asia Pacific" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/CNN.png" group-title="04 国际新闻",CNNInternational.us@AsiaPacific_主源1
+#EXTINF:-1 tvg-id="CNNInternational.us@AsiaPacific" tvg-name="CNN International Asia Pacific（待修复）" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/CNN.png" group-title="04 国际新闻",CNN International Asia Pacific（待修复）｜待修复·历史线路1·本轮未通过
 https://ctrl.laotv.la/live/CNN/index.m3u8
 #EXTINF:-1 tvg-id="CNNInternational.us@EMEA" tvg-name="CNN International Europe/Middle East/Africa" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/CNN.png" group-title="04 国际新闻",CNNInternational.us@EMEA_主源1·1080p
 https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
