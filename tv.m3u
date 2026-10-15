@@ -1,5 +1,5 @@
 #EXTM3U
-# Updated 2026-10-15. Sports additions based on user TV confirmation; see report.
+# Updated 2026-10-15. CNN 720P added from user-confirmed playlist.
 #EXTINF:-1 tvg-id="CCTV1.cn" tvg-name="CCTV-1 综合" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="01 央视",CCTV1.cn_主源1·1080p·60秒实测
 http://219.147.245.238:25480/newlive/live/hls/1/live.m3u8
 #EXTINF:-1 tvg-id="CCTV1.cn" tvg-name="CCTV-1 综合" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="01 央视",CCTV1.cn_备用2·1080高清·含隔行特征·60秒实测
@@ -512,6 +512,8 @@ https://global.cgtn.cicc.media.caton.cloud/master/cgtn.m3u8
 https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn" tvg-name="CGTN English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png" group-title="04 国际新闻",CGTN.cn_备用5·720p
 https://0472.org/hls/cgtn.m3u8
+#EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" group-title="04 国际新闻",CNN｜主源·720P·用户电视已确认可播
+https://tvsen6.aynaott.com/cnn/index.m3u8
 #EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/CNN.png" group-title="04 国际新闻",CNNInternational.us_主源1·1080p
 https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
 #EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/CNN.png" group-title="04 国际新闻",CNNInternational.us_备用2
