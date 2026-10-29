@@ -1,5 +1,4 @@
 #EXTM3U
-# Updated 2026-10-15. CNN 720P added from user-confirmed playlist.
 #EXTINF:-1 tvg-id="CCTV1.cn" tvg-name="CCTV-1 综合" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="01 央视",CCTV1.cn_主源1·1080p·60秒实测
 http://219.147.245.238:25480/newlive/live/hls/1/live.m3u8
 #EXTINF:-1 tvg-id="CCTV1.cn" tvg-name="CCTV-1 综合" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="01 央视",CCTV1.cn_备用2·1080高清·含隔行特征·60秒实测
@@ -444,13 +443,7 @@ http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv
 http://183.10.180.46:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="凤凰资讯" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="03 香港台湾主要频道",凤凰资讯｜主源·1280×720·约60秒实测
 http://173.208.234.146/live/fhzx.m3u8
-#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港（待修复）" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 香港台湾主要频道",凤凰香港（待修复）｜待修复·历史线路1·本轮未通过
-http://nas.jdshipin.com:8801/fhx.php?id=3
-#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港（待修复）" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 香港台湾主要频道",凤凰香港（待修复）｜待修复·历史线路2·本轮未通过
-https://iptv-search.com/play/mn1kst2aw4wa11jl/358c68f9
-#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港（待修复）" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 香港台湾主要频道",凤凰香港（待修复）｜待修复·历史线路3·本轮未通过
-http://103.95.24.37:880/fhxgt.m3u8
-#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港（待修复）" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 香港台湾主要频道",凤凰香港（待修复）｜待修复·历史线路4·本轮未通过
+#EXTINF:-1 tvg-id="PhoenixHongKongChannel.hk" tvg-name="凤凰香港" tvg-logo="https://i.imgur.com/E0DQnRo.png" group-title="03 香港台湾主要频道",凤凰香港｜主源·720P·60秒实测
 http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
 #EXTINF:-1 tvg-id="nowNews.hk" tvg-name="NOW新闻台（待修复）" tvg-logo="https://i.imgur.com/m6tWo9p.png" group-title="03 香港台湾主要频道",NOW新闻台（待修复）｜待修复·历史线路1·本轮未通过
 http://cdn.123.rr.kg/163189/now
@@ -546,11 +539,11 @@ https://jmp2.uk/plu-5ca1da6c593a5d78f0e7edce.m3u8
 https://streams.sofast.tv/euronewsen/live/eds/euronews-en/25017/euronews-en.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-name="Euronews English" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f0a48729-6f08-43e4-9cc4-44ba472281de/Marc_Faron_-_Wurl_Plex_assets_Channel-logo-white3x2_ENrdx.png" group-title="04 国际新闻",EuronewsEnglish.fr_备用5
 https://dash4.antik.sk/live/test_euronews/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="FOX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="04 国际新闻",FoxNewsChannel.us_主源1·1080p
+#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="FOX（待修复）" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="04 国际新闻",FOX（待修复）｜待修复·历史线路·本轮未通过
 https://tvsen6.aynaott.com/foxnews/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="FOX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="04 国际新闻",FoxNewsChannel.us_备用2·720p
+#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="FOX（待修复）" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="04 国际新闻",FOX（待修复）｜待修复·历史线路·本轮未通过
 http://138.121.15.230:9002/FOX-NEWS/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="FOX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="04 国际新闻",FoxNewsChannel.us_备用3·144p
+#EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="FOX（待修复）" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="04 国际新闻",FOX（待修复）｜待修复·240P预览·非确认直播
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/France%2024.png" group-title="04 国际新闻",France24.fr@English_主源1·1080p
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
@@ -740,12 +733,6 @@ http://190.11.225.124:5000/live/nbc_hd/playlist.m3u8
 http://stream.cammonitorplus.net/1785/index.m3u8
 #EXTINF:-1 tvg-id="NHKGeneralTV.jp" tvg-name="NHK General" tvg-logo="https://i.imgur.com/fAZ2BEZ.png" group-title="07 综合娱乐",NHKGeneralTV.jp_主源1·720p
 https://nhk4.mov3.co/hls/nhk.m3u8
-#EXTINF:-1 tvg-id="ESPN.br" tvg-name="ESPN Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="08 国际体育",ESPN.br_主源1·1080p
-http://181.78.197.59:8000/play/a07z/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.br" tvg-name="ESPN Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="08 国际体育",ESPN.br_备用2·720p
-http://190.83.2.182:8090/ESPN/index.m3u8
-#EXTINF:-1 tvg-id="ESPNDeportes.us" tvg-name="ESPN Deportes" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/960px-ESPN_Deportes.svg.png" group-title="08 国际体育",ESPNDeportes.us_主源1·720p
-http://168.228.44.241:9998/play/a0dz/index.m3u8
 #EXTINF:-1 tvg-id="ESPNLatinAmerica.us" tvg-name="ESPN Latin America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="08 国际体育",ESPNLatinAmerica.us_主源1·1080p
 https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8
 #EXTINF:-1 tvg-id="ESPNLatinAmerica.us" tvg-name="ESPN Latin America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="08 国际体育",ESPNLatinAmerica.us_备用2·1080p
